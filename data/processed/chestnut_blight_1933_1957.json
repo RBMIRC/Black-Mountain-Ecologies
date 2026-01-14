@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "species": "Castanea dentata",
+    "common_name": "American Chestnut",
+    "pathogen": "Cryphonectria parasitica (formerly Endothia parasitica)",
+    "common_name_pathogen": "Chestnut blight fungus",
+    "origin": "Introduced from Asian chestnut trees imported to New York",
+    "description": "The American chestnut was once the dominant tree of Eastern forests, comprising up to 25% of hardwood trees. The blight killed an estimated 3-4 billion trees.",
+    "sources": [
+      "US Forest Service Historical Records",
+      "American Chestnut Foundation",
+      "Freinkel, Susan. 'American Chestnut: The Life, Death, and Rebirth of a Perfect Tree' (2007)",
+      "Anagnostakis, Sandra L. 'Chestnut Blight: The Classical Problem of an Introduced Pathogen' (1987)",
+      "NC Forest Service Archives"
+    ]
+  },
+  "pre_blight_ecology": {
+    "forest_composition": "American chestnut comprised 25-30% of Southern Appalachian hardwood forests",
+    "economic_importance": [
+      "Primary source of tannin for leather industry",
+      "Rot-resistant lumber for construction, fencing, railroad ties",
+      "Nuts as food source for humans, livestock, and wildlife",
+      "Reliable annual nut crop (unlike oaks which mast irregularly)"
+    ],
+    "ecological_role": [
+      "Major food source for deer, bear, turkey, squirrels, and other wildlife",
+      "Consistent annual mast crop provided reliable food",
+      "Dominant canopy tree in mixed hardwood forests",
+      "Supported unique insect and fungal communities"
+    ]
+  },
+  "major_events": [
+    {
+      "year": 1904,
+      "location": "Bronx Zoo, New York City",
+      "event": "Chestnut blight first discovered",
+      "description": "Forester Hermann Merkel identifies unusual cankers killing chestnut trees at the Bronx Zoo"
+    },
+    {
+      "year": 1905,
+      "location": "New York",
+      "event": "Pathogen identified",
+      "description": "Mycologist William Murrill identifies the fungus causing the blight"
+    },
+    {
+      "year": 1908,
+      "location": "Pennsylvania",
+      "event": "Rapid spread documented",
+      "description": "Blight spreading rapidly through Pennsylvania forests"
+    },
+    {
+      "year": 1911,
+      "location": "Pennsylvania",
+      "event": "Pennsylvania Blight Commission formed",
+      "description": "First organized scientific effort to combat the blight"
+    },
+    {
+      "year": 1912,
+      "location": "Virginia",
+      "event": "Blight reaches Virginia",
+      "description": "Southern spread accelerating down the Appalachian chain"
+    },
+    {
+      "year": 1920,
+      "location": "Virginia/Tennessee border",
+      "event": "Blight approaching Southern Appalachians",
+      "description": "Scientists tracking southward progression of blight front"
+    },
+    {
+      "year": 1923,
+      "location": "North Carolina",
+      "event": "First blight cases in NC mountains",
+      "description": "Chestnut blight confirmed in North Carolina mountain counties"
+    },
+    {
+      "year": 1926,
+      "location": "Western NC",
+      "event": "Blight widespread in region",
+      "description": "Blight established throughout the Black Mountain region"
+    },
+    {
+      "year": 1930,
+      "location": "Southern Appalachians",
+      "event": "Mass mortality begins",
+      "description": "Large-scale death of chestnut trees accelerating"
+    },
+    {
+      "year": 1933,
+      "location": "Black Mountain region",
+      "event": "BMC opens amid dying forest",
+      "description": "Black Mountain College opens as chestnut blight transforms surrounding forests"
+    },
+    {
+      "year": 1938,
+      "location": "Southern Appalachians",
+      "event": "Peak mortality",
+      "description": "Majority of mature American chestnuts dead or dying"
+    },
+    {
+      "year": 1940,
+      "location": "Southern Appalachians",
+      "event": "Near-complete extinction of mature trees",
+      "description": "American chestnut functionally extinct as a canopy tree in Southern Appalachians"
+    },
+    {
+      "year": 1950,
+      "location": "Eastern US",
+      "event": "Blight reaches Gulf Coast",
+      "description": "Entire native range affected; estimated 3-4 billion trees dead"
+    }
+  ],
+  "yearly_status": {
+    "1933": {
+      "year": 1933,
+      "blight_present": true,
+      "mature_tree_status": "dying",
+      "estimated_survival_percent": 40,
+      "notes": "Active blight spread; many trees infected but still standing",
+      "root_sprouts": "emerging",
+      "salvage_logging": false
+    },
+    "1934": {
+      "year": 1934,
+      "blight_present": true,
+      "mature_tree_status": "mass_mortality",
+      "estimated_survival_percent": 15,
+      "notes": "Peak mortality period; dead and dying trees throughout forest",
+      "root_sprouts": "emerging",
+      "salvage_logging": false
+    },
+    "1935": {
+      "year": 1935,
+      "blight_present": true,
+      "mature_tree_status": "mass_mortality",
+      "estimated_survival_percent": 15,
+      "notes": "Peak mortality period; dead and dying trees throughout forest",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1936": {
+      "year": 1936,
+      "blight_present": true,
+      "mature_tree_status": "mass_mortality",
+      "estimated_survival_percent": 15,
+      "notes": "Peak mortality period; dead and dying trees throughout forest",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1937": {
+      "year": 1937,
+      "blight_present": true,
+      "mature_tree_status": "mass_mortality",
+      "estimated_survival_percent": 15,
+      "notes": "Peak mortality period; dead and dying trees throughout forest",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1938": {
+      "year": 1938,
+      "blight_present": true,
+      "mature_tree_status": "mass_mortality",
+      "estimated_survival_percent": 15,
+      "notes": "Peak mortality period; dead and dying trees throughout forest",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1939": {
+      "year": 1939,
+      "blight_present": true,
+      "mature_tree_status": "functionally_extinct",
+      "estimated_survival_percent": 2,
+      "notes": "Mature trees essentially gone; some root sprouts surviving",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1940": {
+      "year": 1940,
+      "blight_present": true,
+      "mature_tree_status": "functionally_extinct",
+      "estimated_survival_percent": 2,
+      "notes": "Mature trees essentially gone; some root sprouts surviving",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1941": {
+      "year": 1941,
+      "blight_present": true,
+      "mature_tree_status": "functionally_extinct",
+      "estimated_survival_percent": 2,
+      "notes": "Mature trees essentially gone; some root sprouts surviving",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1942": {
+      "year": 1942,
+      "blight_present": true,
+      "mature_tree_status": "functionally_extinct",
+      "estimated_survival_percent": 2,
+      "notes": "Mature trees essentially gone; some root sprouts surviving",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1943": {
+      "year": 1943,
+      "blight_present": true,
+      "mature_tree_status": "functionally_extinct",
+      "estimated_survival_percent": 2,
+      "notes": "Mature trees essentially gone; some root sprouts surviving",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1944": {
+      "year": 1944,
+      "blight_present": true,
+      "mature_tree_status": "functionally_extinct",
+      "estimated_survival_percent": 2,
+      "notes": "Mature trees essentially gone; some root sprouts surviving",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1945": {
+      "year": 1945,
+      "blight_present": true,
+      "mature_tree_status": "functionally_extinct",
+      "estimated_survival_percent": 2,
+      "notes": "Mature trees essentially gone; some root sprouts surviving",
+      "root_sprouts": "present",
+      "salvage_logging": true
+    },
+    "1946": {
+      "year": 1946,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1947": {
+      "year": 1947,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1948": {
+      "year": 1948,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1949": {
+      "year": 1949,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1950": {
+      "year": 1950,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1951": {
+      "year": 1951,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1952": {
+      "year": 1952,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1953": {
+      "year": 1953,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1954": {
+      "year": 1954,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1955": {
+      "year": 1955,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1956": {
+      "year": 1956,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    },
+    "1957": {
+      "year": 1957,
+      "blight_present": true,
+      "mature_tree_status": "extinct_as_canopy",
+      "estimated_survival_percent": 0,
+      "notes": "Only root sprouts remain; forest composition shift complete",
+      "root_sprouts": "present",
+      "salvage_logging": false
+    }
+  },
+  "ecological_consequences": {
+    "forest_composition_change": [
+      "Oaks (Quercus spp.) became dominant canopy trees",
+      "Red maple (Acer rubrum) increased significantly",
+      "Hickories (Carya spp.) expanded",
+      "Tulip poplar (Liriodendron tulipifera) increased"
+    ],
+    "wildlife_impacts": [
+      "Loss of reliable annual mast crop",
+      "Black bear and wild turkey populations declined",
+      "Shift to oak mast with irregular production years",
+      "Some insect species dependent on chestnut went extinct"
+    ],
+    "economic_impacts": [
+      "Loss of tannin industry",
+      "Loss of valuable lumber source",
+      "Loss of subsistence nut crop for rural communities",
+      "CCC programs employed workers to salvage dead trees"
+    ]
+  }
+}

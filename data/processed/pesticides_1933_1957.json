@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "description": "Pesticide usage timeline for the Black Mountain, NC region (1933-1957)",
+    "sources": [
+      "EPA Historical Documents",
+      "USDA Agricultural Statistics",
+      "US Forest Service Records",
+      "Rachel Carson's Silent Spring (1962) - historical references",
+      "NC Department of Agriculture Archives"
+    ]
+  },
+  "major_events": [
+    {
+      "year": 1939,
+      "event": "DDT discovered as insecticide",
+      "description": "Paul Hermann Müller discovers DDT's insecticidal properties in Switzerland",
+      "impact": "Beginning of synthetic pesticide era"
+    },
+    {
+      "year": 1942,
+      "event": "US military DDT production begins",
+      "description": "US begins large-scale DDT production for military use against typhus and malaria",
+      "impact": "Proven effective against disease-carrying insects"
+    },
+    {
+      "year": 1943,
+      "event": "DDT used in Naples typhus epidemic",
+      "description": "First large-scale civilian use of DDT to control typhus outbreak",
+      "impact": "Demonstrated public health potential"
+    },
+    {
+      "year": 1945,
+      "event": "DDT released for civilian use",
+      "description": "US government authorizes DDT for general public sale",
+      "impact": "Agricultural and household use begins"
+    },
+    {
+      "year": 1946,
+      "event": "Agricultural DDT use begins",
+      "description": "Farmers begin using DDT for crop protection; USDA promotes usage",
+      "impact": "Widespread adoption in agriculture"
+    },
+    {
+      "year": 1948,
+      "event": "First insect resistance observed",
+      "description": "Houseflies show resistance to DDT in some areas",
+      "impact": "Early warning sign ignored"
+    },
+    {
+      "year": 1948,
+      "event": "Müller receives Nobel Prize",
+      "description": "Paul Müller awarded Nobel Prize in Physiology or Medicine for DDT discovery",
+      "impact": "DDT seen as miracle chemical"
+    },
+    {
+      "year": 1950,
+      "event": "Peak DDT enthusiasm",
+      "description": "US DDT production reaches massive scale; aerial spraying programs expand",
+      "impact": "Environmental accumulation begins"
+    },
+    {
+      "year": 1954,
+      "event": "USDA fire ant eradication program",
+      "description": "Massive aerial spraying campaign in Southern states using DDT and other chemicals",
+      "impact": "Significant wildlife mortality observed"
+    },
+    {
+      "year": 1957,
+      "event": "First Forest Service restrictions",
+      "description": "US Forest Service begins limiting DDT use in some areas due to wildlife concerns",
+      "impact": "Early regulatory response"
+    }
+  ],
+  "yearly_data": {
+    "1933": {
+      "year": 1933,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "Pre-synthetic pesticide era; arsenic-based compounds and natural pesticides used",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1934": {
+      "year": 1934,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "Pre-synthetic pesticide era; arsenic-based compounds and natural pesticides used",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1935": {
+      "year": 1935,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "Pre-synthetic pesticide era; arsenic-based compounds and natural pesticides used",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1936": {
+      "year": 1936,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "Pre-synthetic pesticide era; arsenic-based compounds and natural pesticides used",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1937": {
+      "year": 1937,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "Pre-synthetic pesticide era; arsenic-based compounds and natural pesticides used",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1938": {
+      "year": 1938,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "Pre-synthetic pesticide era; arsenic-based compounds and natural pesticides used",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1939": {
+      "year": 1939,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "DDT in military use only; traditional pesticides continue",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1940": {
+      "year": 1940,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "DDT in military use only; traditional pesticides continue",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1941": {
+      "year": 1941,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "DDT in military use only; traditional pesticides continue",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1942": {
+      "year": 1942,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "DDT in military use only; traditional pesticides continue",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1943": {
+      "year": 1943,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "DDT in military use only; traditional pesticides continue",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1944": {
+      "year": 1944,
+      "ddt_available": false,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "low",
+      "notes": "DDT in military use only; traditional pesticides continue",
+      "common_pesticides": [
+        "lead arsenate",
+        "calcium arsenate",
+        "pyrethrum",
+        "rotenone"
+      ]
+    },
+    "1945": {
+      "year": 1945,
+      "ddt_available": true,
+      "ddt_agricultural_use": false,
+      "estimated_regional_usage": "moderate",
+      "notes": "DDT becoming available; adoption growing; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "lead arsenate",
+        "BHC (lindane)",
+        "chlordane"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1946": {
+      "year": 1946,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "moderate",
+      "notes": "DDT becoming available; adoption growing; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "lead arsenate",
+        "BHC (lindane)",
+        "chlordane"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1947": {
+      "year": 1947,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "moderate",
+      "notes": "DDT becoming available; adoption growing; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "lead arsenate",
+        "BHC (lindane)",
+        "chlordane"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1948": {
+      "year": 1948,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "moderate",
+      "notes": "DDT becoming available; adoption growing; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "lead arsenate",
+        "BHC (lindane)",
+        "chlordane"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1949": {
+      "year": 1949,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "moderate",
+      "notes": "DDT becoming available; adoption growing; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "lead arsenate",
+        "BHC (lindane)",
+        "chlordane"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1950": {
+      "year": 1950,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "high",
+      "notes": "Peak synthetic pesticide era; widespread DDT use; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "BHC (lindane)",
+        "chlordane",
+        "aldrin",
+        "dieldrin",
+        "toxaphene"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1951": {
+      "year": 1951,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "high",
+      "notes": "Peak synthetic pesticide era; widespread DDT use; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "BHC (lindane)",
+        "chlordane",
+        "aldrin",
+        "dieldrin",
+        "toxaphene"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1952": {
+      "year": 1952,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "high",
+      "notes": "Peak synthetic pesticide era; widespread DDT use; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "BHC (lindane)",
+        "chlordane",
+        "aldrin",
+        "dieldrin",
+        "toxaphene"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1953": {
+      "year": 1953,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "high",
+      "notes": "Peak synthetic pesticide era; widespread DDT use; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "BHC (lindane)",
+        "chlordane",
+        "aldrin",
+        "dieldrin",
+        "toxaphene"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1954": {
+      "year": 1954,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "high",
+      "notes": "Peak synthetic pesticide era; widespread DDT use; Fire ant program affects region; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "BHC (lindane)",
+        "chlordane",
+        "aldrin",
+        "dieldrin",
+        "toxaphene"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1955": {
+      "year": 1955,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "high",
+      "notes": "Peak synthetic pesticide era; widespread DDT use; Fire ant program affects region; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "BHC (lindane)",
+        "chlordane",
+        "aldrin",
+        "dieldrin",
+        "toxaphene"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1956": {
+      "year": 1956,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "high",
+      "notes": "Peak synthetic pesticide era; widespread DDT use; Fire ant program affects region; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "BHC (lindane)",
+        "chlordane",
+        "aldrin",
+        "dieldrin",
+        "toxaphene"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    },
+    "1957": {
+      "year": 1957,
+      "ddt_available": true,
+      "ddt_agricultural_use": true,
+      "estimated_regional_usage": "high",
+      "notes": "Peak synthetic pesticide era; widespread DDT use; Fire ant program affects region; Tobacco and apple orchards primary agricultural users in region",
+      "common_pesticides": [
+        "DDT",
+        "BHC (lindane)",
+        "chlordane",
+        "aldrin",
+        "dieldrin",
+        "toxaphene"
+      ],
+      "forest_service_spraying": true,
+      "agricultural_application": true
+    }
+  }
+}

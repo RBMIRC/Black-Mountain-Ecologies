@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMC Ecology - Black Mountain College 1933-1957</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'EB Garamond', Georgia, serif;
+      background-color: #0a0a0f;
+      color: #e8e8e8;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    .container { max-width: 1800px; margin: 0 auto; padding: 20px; }
+
+    /* Header */
+    header { text-align: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #2a2a3a; }
+    h1 { font-size: 1.8rem; font-weight: 400; letter-spacing: 0.15em; margin-bottom: 5px; }
+    .subtitle { font-size: 0.9rem; color: #888; font-style: italic; }
+
+    /* View Toggle */
+    .view-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    .view-btn {
+      padding: 10px 25px;
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      border-radius: 8px;
+      color: #888;
+      font-family: 'EB Garamond', serif;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .view-btn:hover { background: #252530; color: #ccc; }
+    .view-btn.active {
+      background: #4ecdc4;
+      color: #0a0a0f;
+      border-color: #4ecdc4;
+      font-weight: 500;
+    }
+
+    /* Navigation */
+    .nav-bar {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      background: #12121a;
+      padding: 12px;
+      border-radius: 10px;
+    }
+    .nav-btn {
+      padding: 8px 12px;
+      background: #1a1a24;
+      border: 1px solid #2a2a3a;
+      border-radius: 6px;
+      color: #888;
+      font-family: 'EB Garamond', serif;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .nav-btn:hover { background: #252530; color: #ccc; }
+    .nav-btn.active {
+      background: #4ecdc4;
+      color: #0a0a0f;
+      border-color: #4ecdc4;
+      font-weight: 500;
+    }
+    .nav-btn.event-marker { border-bottom: 2px solid #ff9f43; }
+
+    /* Period Display */
+    .period-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+    .period-label { color: #4ecdc4; font-weight: 500; }
+    .period-name { font-size: 2rem; font-weight: 500; }
+
+    /* Stats Summary */
+    .stats-summary {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
+    }
+    .stat-item {
+      text-align: center;
+      padding: 12px 18px;
+      background: #12121a;
+      border-radius: 8px;
+      min-width: 90px;
+    }
+    .stat-number { font-size: 1.6rem; font-weight: 500; color: #4ecdc4; }
+    .stat-label { font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.1em; }
+
+    /* Main Grid */
+    .main-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+    @media (max-width: 1400px) { .main-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 900px) { .main-grid { grid-template-columns: 1fr; } }
+
+    /* Panels */
+    .panel {
+      background: #12121a;
+      border-radius: 10px;
+      padding: 15px;
+      border: 1px solid #1a1a24;
+    }
+    .panel.wide { grid-column: span 2; }
+    @media (max-width: 900px) { .panel.wide { grid-column: span 1; } }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #2a2a3a;
+    }
+    .panel-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #888;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .panel-title::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+    .panel.butterflies .panel-title::before { background: #ff9f43; }
+    .panel.moths .panel-title::before { background: #a86bff; }
+    .panel.plants .panel-title::before { background: #7cb342; }
+    .panel.birds .panel-title::before { background: #4ecdc4; }
+    .panel.amphibians .panel-title::before { background: #ff6b6b; }
+    .panel.events .panel-title::before { background: #ffd93d; }
+    .panel.farm .panel-title::before { background: #ff9f43; }
+    .panel.livestock .panel-title::before { background: #e17055; }
+    .panel.crops .panel-title::before { background: #7cb342; }
+    .panel.buildings .panel-title::before { background: #a86bff; }
+    .panel.people .panel-title::before { background: #4ecdc4; }
+
+    .panel-count {
+      font-size: 0.7rem;
+      color: #666;
+      background: #1a1a24;
+      padding: 3px 8px;
+      border-radius: 10px;
+    }
+
+    /* Species/Item List */
+    .item-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      max-height: 350px;
+      overflow-y: auto;
+    }
+    .item-list::-webkit-scrollbar { width: 4px; }
+    .item-list::-webkit-scrollbar-track { background: #1a1a24; }
+    .item-list::-webkit-scrollbar-thumb { background: #3a3a4a; border-radius: 2px; }
+
+    .item-entry {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 8px 10px;
+      background: #1a1a24;
+      border-radius: 6px;
+      border-left: 3px solid #3a3a4a;
+    }
+    .item-entry.common { border-left-color: #7cb342; }
+    .item-entry.uncommon { border-left-color: #ff9f43; }
+    .item-entry.rare { border-left-color: #ff6b6b; }
+    .item-entry.abundant { border-left-color: #4ecdc4; }
+    .item-entry.highlight { border-left-color: #ffd93d; }
+
+    .item-info { flex: 1; }
+    .item-name { font-size: 0.9rem; font-weight: 500; color: #e8e8e8; }
+    .item-detail { font-size: 0.75rem; font-style: italic; color: #888; margin-top: 2px; }
+    .item-meta {
+      font-size: 0.65rem;
+      color: #666;
+      margin-top: 4px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .item-meta span {
+      background: #252530;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    .item-badge {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      padding: 3px 6px;
+      border-radius: 3px;
+      background: #2a2a3a;
+      color: #888;
+    }
+    .item-badge.common { background: #7cb34233; color: #7cb342; }
+    .item-badge.uncommon { background: #ff9f4333; color: #ff9f43; }
+    .item-badge.rare { background: #ff6b6b33; color: #ff6b6b; }
+    .item-badge.abundant { background: #4ecdc433; color: #4ecdc4; }
+    .item-badge.resident { background: #4ecdc433; color: #4ecdc4; }
+    .item-badge.winter { background: #a86bff33; color: #a86bff; }
+    .item-badge.summer { background: #ff9f4333; color: #ff9f43; }
+
+    /* Plant/Type badges */
+    .type-badge {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      padding: 2px 5px;
+      border-radius: 3px;
+      margin-left: 6px;
+    }
+    .type-badge.tree { background: #7cb34233; color: #7cb342; }
+    .type-badge.shrub { background: #ff9f4333; color: #ff9f43; }
+    .type-badge.wildflower { background: #a86bff33; color: #a86bff; }
+
+    /* Event items */
+    .event-item {
+      padding: 10px 12px;
+      background: #1a1a24;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      border-left: 3px solid #ffd93d;
+    }
+    .event-item.farm-event { border-left-color: #ff9f43; }
+    .event-text { font-size: 0.9rem; color: #e8e8e8; }
+    .event-date { font-size: 0.7rem; color: #888; margin-top: 4px; }
+    .event-people { font-size: 0.7rem; color: #4ecdc4; margin-top: 2px; }
+
+    /* Farm-specific styles */
+    .livestock-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 10px;
+    }
+    .livestock-item {
+      background: #1a1a24;
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+    }
+    .livestock-count {
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: #e17055;
+    }
+    .livestock-name {
+      font-size: 0.75rem;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .livestock-breed {
+      font-size: 0.65rem;
+      color: #666;
+      font-style: italic;
+      margin-top: 2px;
+    }
+
+    /* Sources Footer */
+    .sources-section {
+      margin-top: 25px;
+      padding: 15px;
+      background: #12121a;
+      border-radius: 10px;
+      border: 1px solid #1a1a24;
+    }
+    .sources-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #888;
+      margin-bottom: 10px;
+    }
+    .sources-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 10px;
+    }
+    .source-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      color: #666;
+    }
+    .source-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #4ecdc4;
+      flex-shrink: 0;
+    }
+    .source-item a { color: #4ecdc4; text-decoration: none; }
+    .source-item a:hover { text-decoration: underline; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #2a2a3a;
+      font-size: 0.8rem;
+      color: #666;
+    }
+    footer a { color: #4ecdc4; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+      font-style: italic;
+    }
+
+    /* Hidden sections */
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>BMC ECOLOGY</h1>
+      <div class="subtitle">Black Mountain College Environmental Chronicle &mdash; 1933-1957</div>
+    </header>
+
+    <!-- View Toggle -->
+    <div class="view-toggle">
+      <button class="view-btn active" onclick="switchView('ecology')">Seasonal Ecology</button>
+      <button class="view-btn" onclick="switchView('farm')">The Farm</button>
+    </div>
+
+    <!-- ECOLOGY VIEW -->
+    <div id="ecologyView">
+      <nav class="nav-bar" id="monthNav"></nav>
+      <div class="period-bar">
+        <span class="period-label" id="seasonName">Winter</span>
+        <span>&mdash;</span>
+        <span class="period-name" id="monthName">January</span>
+      </div>
+      <div class="stats-summary" id="ecologyStats"></div>
+      <div class="main-grid" id="ecologyGrid"></div>
+    </div>
+
+    <!-- FARM VIEW -->
+    <div id="farmView" class="hidden">
+      <nav class="nav-bar" id="yearNav"></nav>
+      <div class="period-bar">
+        <span class="period-label" id="farmPeriod">Blue Ridge</span>
+        <span>&mdash;</span>
+        <span class="period-name" id="farmYear">1933</span>
+      </div>
+      <div class="stats-summary" id="farmStats"></div>
+      <div class="main-grid" id="farmGrid"></div>
+    </div>
+
+    <!-- Sources -->
+    <div class="sources-section" id="ecologySources">
+      <div class="sources-title">Data Sources (Verified)</div>
+      <div class="sources-grid">
+        <div class="source-item">
+          <span class="source-dot"></span>
+          <span><a href="https://www.inaturalist.org/check_lists/6029" target="_blank">iNaturalist</a> &mdash; Buncombe County baseline (2,213 species)</span>
+        </div>
+        <div class="source-item">
+          <span class="source-dot"></span>
+          <span><a href="https://www.ncbiodiversity.org/" target="_blank">NC Biodiversity Project</a> &mdash; Moths &amp; butterflies flight periods</span>
+        </div>
+        <div class="source-item">
+          <span class="source-dot"></span>
+          <span><a href="https://coweeta.uga.edu/" target="_blank">Coweeta LTER</a> &mdash; Historical forest composition (est. 1934)</span>
+        </div>
+        <div class="source-item">
+          <span class="source-dot"></span>
+          <span><a href="https://www.gbif.org/" target="_blank">GBIF</a> &mdash; Historical specimen records 1933-1957</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sources-section hidden" id="farmSources">
+      <div class="sources-title">Data Sources (Verified)</div>
+      <div class="sources-grid">
+        <div class="source-item">
+          <span class="source-dot"></span>
+          <span><strong>David Silver</strong> &mdash; "The Farm at Black Mountain College" (2024), BMCM+AC / Atelier Editions</span>
+        </div>
+        <div class="source-item">
+          <span class="source-dot"></span>
+          <span>Western Regional Archives (WRA), Asheville, NC</span>
+        </div>
+        <div class="source-item">
+          <span class="source-dot"></span>
+          <span>Black Mountain College Museum + Arts Center</span>
+        </div>
+        <div class="source-item">
+          <span class="source-dot"></span>
+          <span>Swannanoa Valley Museum &amp; History Center</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>RETCON BLACK MOUNTAIN | Location: 35.5951°N, 82.5515°W | Elevation: 670m</p>
+      <p style="margin-top: 8px;">
+        <a href="seasonal_calendar.json" download>Download Seasonal Data (JSON)</a> |
+        <a href="bmc_farm_1933_1957.json" download>Download Farm Data (JSON)</a> |
+        <a href="bmc_ecology_1933_1957.json" download>Download Full Dataset (JSON)</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    let calendarData = null;
+    let farmData = null;
+    let currentView = 'ecology';
+    let currentMonth = 'January';
+    let currentYear = 1933;
+
+    const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
+                    'July', 'August', 'September', 'October', 'November', 'December'];
+    const YEARS = Array.from({length: 25}, (_, i) => 1933 + i);
+    const SEASONS = {
+      'January': 'Winter', 'February': 'Winter', 'March': 'Spring',
+      'April': 'Spring', 'May': 'Spring', 'June': 'Summer',
+      'July': 'Summer', 'August': 'Summer', 'September': 'Fall',
+      'October': 'Fall', 'November': 'Fall', 'December': 'Winter'
+    };
+
+    async function loadData() {
+      try {
+        const [calendarRes, farmRes] = await Promise.all([
+          fetch('seasonal_calendar.json'),
+          fetch('bmc_farm_1933_1957.json')
+        ]);
+        calendarData = await calendarRes.json();
+        farmData = await farmRes.json();
+        initializeApp();
+      } catch (error) {
+        console.error('Error loading data:', error);
+        document.getElementById('ecologyGrid').innerHTML = '<div class="empty-state">Error loading data. Check console.</div>';
+      }
+    }
+
+    function initializeApp() {
+      createMonthNav();
+      createYearNav();
+      updateEcology('January');
+      updateFarm(1933);
+    }
+
+    function switchView(view) {
+      currentView = view;
+      document.querySelectorAll('.view-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent.toLowerCase().includes(view));
+      });
+      document.getElementById('ecologyView').classList.toggle('hidden', view !== 'ecology');
+      document.getElementById('farmView').classList.toggle('hidden', view !== 'farm');
+      document.getElementById('ecologySources').classList.toggle('hidden', view !== 'ecology');
+      document.getElementById('farmSources').classList.toggle('hidden', view !== 'farm');
+    }
+
+    function createMonthNav() {
+      document.getElementById('monthNav').innerHTML = MONTHS.map(month =>
+        `<button class="nav-btn ${month === 'January' ? 'active' : ''}" onclick="updateEcology('${month}')">${month.slice(0, 3)}</button>`
+      ).join('');
+    }
+
+    function createYearNav() {
+      const eventYears = [1933, 1935, 1937, 1941, 1942, 1943, 1946, 1949, 1954, 1955];
+      document.getElementById('yearNav').innerHTML = YEARS.map(year =>
+        `<button class="nav-btn ${year === 1933 ? 'active' : ''} ${eventYears.includes(year) ? 'event-marker' : ''}" onclick="updateFarm(${year})">${year}</button>`
+      ).join('');
+    }
+
+    // ECOLOGY
+    function updateEcology(month) {
+      currentMonth = month;
+      document.querySelectorAll('#monthNav .nav-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent === month.slice(0, 3));
+      });
+      document.getElementById('monthName').textContent = month;
+      document.getElementById('seasonName').textContent = SEASONS[month];
+
+      const data = calendarData?.detailed_calendars?.[month];
+      if (!data) {
+        document.getElementById('ecologyGrid').innerHTML = '<div class="empty-state">No data</div>';
+        return;
+      }
+
+      const stats = [
+        { label: 'Butterflies', count: data.butterflies?.length || 0, color: '#ff9f43' },
+        { label: 'Moths', count: data.moths?.length || 0, color: '#a86bff' },
+        { label: 'Plants', count: data.plants_blooming?.length || 0, color: '#7cb342' },
+        { label: 'Birds', count: data.birds?.length || 0, color: '#4ecdc4' },
+        { label: 'Amphibians', count: data.amphibians?.length || 0, color: '#ff6b6b' }
+      ];
+      document.getElementById('ecologyStats').innerHTML = stats.map(s => `
+        <div class="stat-item"><div class="stat-number" style="color:${s.color}">${s.count}</div><div class="stat-label">${s.label}</div></div>
+      `).join('');
+
+      let html = '';
+      html += createListPanel('butterflies', 'Butterflies Active', data.butterflies || [], i => ({ name: i.common_name, detail: i.scientific_name, badge: i.abundance, meta: i.family ? [i.family] : [] }));
+      html += createListPanel('moths', 'Moths Active', data.moths || [], i => ({ name: i.common_name, detail: i.scientific_name, badge: i.abundance, meta: i.family ? [i.family] : [] }));
+      html += createPlantsPanel(data.plants_blooming || []);
+      html += createListPanel('birds', 'Birds Present', data.birds || [], i => ({ name: i.common_name, detail: i.scientific_name, badge: i.status, meta: [i.activity] }));
+      html += createListPanel('amphibians', 'Amphibians Active', data.amphibians || [], i => ({ name: i.common_name, detail: i.scientific_name, badge: 'common', meta: [i.activity] }));
+      html += createTextEventsPanel('Ecological Events', data.ecological_events || []);
+      document.getElementById('ecologyGrid').innerHTML = html;
+    }
+
+    function createListPanel(type, title, items, fmt) {
+      if (!items.length) return `<div class="panel ${type}"><div class="panel-header"><div class="panel-title">${title}</div><div class="panel-count">0</div></div><div class="empty-state">None this month</div></div>`;
+      const itemsHtml = items.map(i => {
+        const f = fmt(i);
+        return `<div class="item-entry ${f.badge||''}"><div class="item-info"><div class="item-name">${f.name}</div><div class="item-detail">${f.detail}</div>${f.meta?.length?`<div class="item-meta">${f.meta.map(m=>`<span>${m}</span>`).join('')}</div>`:''}</div>${f.badge?`<span class="item-badge ${f.badge}">${f.badge}</span>`:''}</div>`;
+      }).join('');
+      return `<div class="panel ${type}"><div class="panel-header"><div class="panel-title">${title}</div><div class="panel-count">${items.length}</div></div><div class="item-list">${itemsHtml}</div></div>`;
+    }
+
+    function createPlantsPanel(plants) {
+      if (!plants.length) return `<div class="panel plants"><div class="panel-header"><div class="panel-title">Plants Blooming</div><div class="panel-count">0</div></div><div class="empty-state">None blooming</div></div>`;
+      const itemsHtml = plants.map(p => `<div class="item-entry common"><div class="item-info"><div class="item-name">${p.common_name}<span class="type-badge ${p.type||''}">${p.type||'plant'}</span></div><div class="item-detail">${p.scientific_name}</div><div class="item-meta">${p.family?`<span>${p.family}</span>`:''}${p.habitat?`<span>${p.habitat}</span>`:''}</div></div></div>`).join('');
+      return `<div class="panel plants"><div class="panel-header"><div class="panel-title">Plants Blooming</div><div class="panel-count">${plants.length}</div></div><div class="item-list">${itemsHtml}</div></div>`;
+    }
+
+    function createTextEventsPanel(title, events) {
+      if (!events.length) return `<div class="panel events"><div class="panel-header"><div class="panel-title">${title}</div></div><div class="empty-state">No events</div></div>`;
+      const html = events.map(e => `<div class="event-item"><div class="event-text">${e}</div></div>`).join('');
+      return `<div class="panel events"><div class="panel-header"><div class="panel-title">${title}</div><div class="panel-count">${events.length}</div></div>${html}</div>`;
+    }
+
+    // FARM
+    function updateFarm(year) {
+      currentYear = year;
+      document.querySelectorAll('#yearNav .nav-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.textContent === String(year));
+      });
+      document.getElementById('farmYear').textContent = year;
+      document.getElementById('farmPeriod').textContent = year <= 1941 ? 'Blue Ridge' : 'Lake Eden';
+
+      const yearData = farmData?.yearly_status?.[year] || {};
+      const livestock = yearData.livestock || {};
+
+      const stats = [
+        { label: 'Cows', count: livestock.cows?.total || livestock.cows || 0, color: '#e17055' },
+        { label: 'Pigs', count: livestock.pigs || 0, color: '#ff9f43' },
+        { label: 'Chickens', count: typeof livestock.chickens === 'string' ? livestock.chickens : (livestock.chickens || 0), color: '#ffd93d' },
+        { label: 'Horses', count: livestock.horses || 0, color: '#a86bff' }
+      ];
+      document.getElementById('farmStats').innerHTML = stats.map(s => `
+        <div class="stat-item"><div class="stat-number" style="color:${s.color}">${s.count||'—'}</div><div class="stat-label">${s.label}</div></div>
+      `).join('');
+
+      let html = '';
+
+      // Events
+      const yearEvents = farmData?.major_events?.filter(e => e.year === year) || [];
+      html += createFarmEventsPanel(yearEvents);
+
+      // Livestock
+      html += createLivestockPanel(livestock);
+
+      // Crops
+      html += createCropsPanel(yearData);
+
+      // Buildings
+      html += createBuildingsPanel(year);
+
+      // People
+      html += createPeoplePanel(year);
+
+      // Notes
+      if (yearData.notes) {
+        html += `<div class="panel farm"><div class="panel-header"><div class="panel-title">Notes</div></div><div class="event-item"><div class="event-text">${yearData.notes}</div></div></div>`;
+      }
+
+      document.getElementById('farmGrid').innerHTML = html;
+    }
+
+    function createFarmEventsPanel(events) {
+      if (!events.length) return `<div class="panel events"><div class="panel-header"><div class="panel-title">Events This Year</div></div><div class="empty-state">No major events recorded</div></div>`;
+      const html = events.map(e => `<div class="event-item farm-event"><div class="event-text">${e.event}</div>${e.description?`<div class="event-date">${e.description}</div>`:''}${e.key_people?.length?`<div class="event-people">${e.key_people.join(', ')}</div>`:''}</div>`).join('');
+      return `<div class="panel events"><div class="panel-header"><div class="panel-title">Events This Year</div><div class="panel-count">${events.length}</div></div>${html}</div>`;
+    }
+
+    function createLivestockPanel(livestock) {
+      let items = [];
+      if (livestock.cows) {
+        if (typeof livestock.cows === 'object') {
+          if (livestock.cows.dairy) items.push({ name: 'Dairy Cows', count: livestock.cows.dairy, breed: 'Guernsey' });
+          if (livestock.cows.beef) items.push({ name: 'Beef Cattle', count: livestock.cows.beef, breed: 'Angus' });
+          if (livestock.cows.bulls) items.push({ name: 'Bulls', count: livestock.cows.bulls });
+        } else {
+          items.push({ name: 'Cattle', count: livestock.cows });
+        }
+      }
+      if (livestock.pigs) items.push({ name: 'Pigs', count: livestock.pigs, breed: 'Berkshire' });
+      if (livestock.chickens) items.push({ name: 'Chickens', count: livestock.chickens, breed: 'Rhode Island Red' });
+      if (livestock.horses) items.push({ name: 'Horses', count: livestock.horses });
+      if (livestock.ducks) items.push({ name: 'Ducks', count: livestock.ducks });
+      if (livestock.goats) items.push({ name: 'Goats', count: livestock.goats });
+
+      if (!items.length) return `<div class="panel livestock"><div class="panel-header"><div class="panel-title">Livestock</div></div><div class="empty-state">No specific records</div></div>`;
+
+      const gridHtml = items.map(i => `<div class="livestock-item"><div class="livestock-count">${i.count}</div><div class="livestock-name">${i.name}</div>${i.breed?`<div class="livestock-breed">${i.breed}</div>`:''}</div>`).join('');
+      return `<div class="panel livestock"><div class="panel-header"><div class="panel-title">Livestock</div></div><div class="livestock-grid">${gridHtml}</div></div>`;
+    }
+
+    function createCropsPanel(yearData) {
+      const crops = yearData.crops || [];
+      const feedCrops = yearData.feed_crops || [];
+      const production = yearData.production;
+
+      if (!crops.length && !feedCrops.length && !production) return `<div class="panel crops"><div class="panel-header"><div class="panel-title">Crops &amp; Production</div></div><div class="empty-state">No crop records</div></div>`;
+
+      let html = '<div class="item-list">';
+      if (crops.length) html += `<div class="item-entry common"><div class="item-info"><div class="item-name">Vegetables</div><div class="item-meta">${crops.map(c=>`<span>${c}</span>`).join('')}</div></div></div>`;
+      if (feedCrops.length) html += `<div class="item-entry uncommon"><div class="item-info"><div class="item-name">Feed Crops</div><div class="item-meta">${feedCrops.map(c=>`<span>${c}</span>`).join('')}</div></div></div>`;
+      if (production) {
+        const prodHtml = Object.entries(production).map(([k,v])=>`<span>${k.replace(/_/g,' ')}: ${v}</span>`).join('');
+        html += `<div class="item-entry highlight"><div class="item-info"><div class="item-name">Production</div><div class="item-meta">${prodHtml}</div></div></div>`;
+      }
+      html += '</div>';
+      return `<div class="panel crops"><div class="panel-header"><div class="panel-title">Crops &amp; Production</div></div>${html}</div>`;
+    }
+
+    function createBuildingsPanel(year) {
+      const period = year <= 1941 ? 'blue_ridge_period' : 'lake_eden_period';
+      const buildings = farmData?.buildings?.[period] || [];
+      const builtByYear = buildings.filter(b => {
+        if (!b.built) return true;
+        const y = parseInt(String(b.built));
+        return isNaN(y) || y <= year;
+      });
+      const builtThisYear = buildings.filter(b => b.built && String(b.built).includes(String(year)));
+
+      if (!builtByYear.length) return `<div class="panel buildings"><div class="panel-header"><div class="panel-title">Buildings</div></div><div class="empty-state">No buildings</div></div>`;
+
+      const itemsHtml = builtByYear.map(b => {
+        const isNew = builtThisYear.includes(b);
+        return `<div class="item-entry ${isNew?'highlight':'common'}"><div class="item-info"><div class="item-name">${b.name}${isNew?' <span class="type-badge wildflower">NEW</span>':''}</div>${b.builder||b.architect?`<div class="item-detail">${b.builder||b.architect}</div>`:''}${b.notes?`<div class="item-meta"><span>${b.notes}</span></div>`:''}</div></div>`;
+      }).join('');
+      return `<div class="panel buildings"><div class="panel-header"><div class="panel-title">Buildings</div><div class="panel-count">${builtByYear.length}</div></div><div class="item-list">${itemsHtml}</div></div>`;
+    }
+
+    function createPeoplePanel(year) {
+      const managers = farmData?.key_people?.farm_managers || [];
+      const founders = farmData?.key_people?.founders_and_advocates || [];
+
+      const active = [...managers, ...founders].filter(p => {
+        if (!p.period) return true;
+        const parts = p.period.split('-').map(s => parseInt(s.trim()));
+        const start = parts[0] || 0;
+        const end = parts[1] || 9999;
+        return year >= start && year <= end;
+      });
+
+      if (!active.length) return `<div class="panel people"><div class="panel-header"><div class="panel-title">Key People</div></div><div class="empty-state">No records</div></div>`;
+
+      const itemsHtml = active.map(p => `<div class="item-entry common"><div class="item-info"><div class="item-name">${p.name}</div><div class="item-detail">${p.role}</div>${p.contributions?`<div class="item-meta"><span>${p.contributions.substring(0,80)}${p.contributions.length>80?'...':''}</span></div>`:''}</div></div>`).join('');
+      return `<div class="panel people"><div class="panel-header"><div class="panel-title">Key People</div><div class="panel-count">${active.length}</div></div><div class="item-list">${itemsHtml}</div></div>`;
+    }
+
+    loadData();
+  </script>
+</body>
+</html>

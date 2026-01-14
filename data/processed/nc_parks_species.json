@@ -1,0 +1,3552 @@
+{
+  "metadata": {
+    "sources": [
+      "NC Biodiversity Project",
+      "NC Native Plant Society",
+      "NC Natural Heritage Program",
+      "NC Wildlife Resources Commission",
+      "NC Museum of Natural Sciences"
+    ],
+    "region": "Western North Carolina / Blue Ridge Mountains",
+    "counties": [
+      "Buncombe",
+      "Henderson",
+      "Madison",
+      "Yancey",
+      "Mitchell",
+      "McDowell",
+      "Transylvania",
+      "Haywood",
+      "Jackson",
+      "Swain"
+    ],
+    "fetched": "2026-01-14T16:59:37.985475",
+    "notes": [
+      "Species documented in Western NC region",
+      "Includes Appalachian endemic species",
+      "Focus on species likely present at BMC Lake Eden campus"
+    ]
+  },
+  "summary": {
+    "total_moths": 38,
+    "total_butterflies": 50,
+    "total_plants": 90
+  },
+  "moths": {
+    "total": 38,
+    "by_family": {
+      "Saturniidae": [
+        "Luna Moth",
+        "Polyphemus Moth",
+        "Sweetbay Silkmoth",
+        "Cecropia Moth",
+        "Io Moth",
+        "Rosy Maple Moth",
+        "Imperial Moth",
+        "Regal Moth",
+        "Pink-striped Oakworm Moth"
+      ],
+      "Sphingidae": [
+        "Carolina Sphinx",
+        "Five-spotted Hawkmoth",
+        "Virginia Creeper Sphinx",
+        "Hummingbird Clearwing",
+        "Snowberry Clearwing",
+        "Blinded Sphinx",
+        "Twin-spotted Sphinx",
+        "Waved Sphinx"
+      ],
+      "Erebidae": [
+        "Clymene Moth",
+        "Confused Haploa",
+        "Banded Tussock Moth",
+        "Hickory Tussock Moth",
+        "Isabella Tiger Moth",
+        "Giant Leopard Moth",
+        "Harnessed Tiger Moth",
+        "Ilia Underwing",
+        "Yellow-banded Underwing",
+        "Ultronia Underwing",
+        "Widow Underwing"
+      ],
+      "Notodontidae": [
+        "Yellow-necked Caterpillar Moth",
+        "White-dotted Prominent",
+        "Saddled Prominent"
+      ],
+      "Geometridae": [
+        "Horned Spanworm Moth",
+        "Hemlock Looper",
+        "Large Maple Spanworm",
+        "False Crocus Geometer"
+      ],
+      "Noctuidae": [
+        "American Dagger Moth",
+        "Subterranean Dart",
+        "Ipsilon Dart"
+      ]
+    },
+    "species": [
+      {
+        "scientific_name": "Actias luna",
+        "common_name": "Luna Moth",
+        "family": "Saturniidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Antheraea polyphemus",
+        "common_name": "Polyphemus Moth",
+        "family": "Saturniidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Callosamia securifera",
+        "common_name": "Sweetbay Silkmoth",
+        "family": "Saturniidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "uncommon"
+      },
+      {
+        "scientific_name": "Hyalophora cecropia",
+        "common_name": "Cecropia Moth",
+        "family": "Saturniidae",
+        "flight_months": [
+          5,
+          6,
+          7
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Automeris io",
+        "common_name": "Io Moth",
+        "family": "Saturniidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Dryocampa rubicunda",
+        "common_name": "Rosy Maple Moth",
+        "family": "Saturniidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Eacles imperialis",
+        "common_name": "Imperial Moth",
+        "family": "Saturniidae",
+        "flight_months": [
+          6,
+          7,
+          8
+        ],
+        "abundance": "uncommon"
+      },
+      {
+        "scientific_name": "Citheronia regalis",
+        "common_name": "Regal Moth",
+        "family": "Saturniidae",
+        "flight_months": [
+          6,
+          7,
+          8
+        ],
+        "abundance": "uncommon"
+      },
+      {
+        "scientific_name": "Anisota virginiensis",
+        "common_name": "Pink-striped Oakworm Moth",
+        "family": "Saturniidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Manduca sexta",
+        "common_name": "Carolina Sphinx",
+        "family": "Sphingidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Manduca quinquemaculata",
+        "common_name": "Five-spotted Hawkmoth",
+        "family": "Sphingidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Darapsa myron",
+        "common_name": "Virginia Creeper Sphinx",
+        "family": "Sphingidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Hemaris thysbe",
+        "common_name": "Hummingbird Clearwing",
+        "family": "Sphingidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Hemaris diffinis",
+        "common_name": "Snowberry Clearwing",
+        "family": "Sphingidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Paonias excaecata",
+        "common_name": "Blinded Sphinx",
+        "family": "Sphingidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Smerinthus jamaicensis",
+        "common_name": "Twin-spotted Sphinx",
+        "family": "Sphingidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Ceratomia undulosa",
+        "common_name": "Waved Sphinx",
+        "family": "Sphingidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Haploa clymene",
+        "common_name": "Clymene Moth",
+        "family": "Erebidae",
+        "flight_months": [
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Haploa confusa",
+        "common_name": "Confused Haploa",
+        "family": "Erebidae",
+        "flight_months": [
+          5,
+          6,
+          7
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Halysidota tessellaris",
+        "common_name": "Banded Tussock Moth",
+        "family": "Erebidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Lophocampa caryae",
+        "common_name": "Hickory Tussock Moth",
+        "family": "Erebidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Pyrrharctia isabella",
+        "common_name": "Isabella Tiger Moth",
+        "family": "Erebidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Hypercompe scribonia",
+        "common_name": "Giant Leopard Moth",
+        "family": "Erebidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Apantesis phalerata",
+        "common_name": "Harnessed Tiger Moth",
+        "family": "Erebidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Catocala ilia",
+        "common_name": "Ilia Underwing",
+        "family": "Erebidae",
+        "flight_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Catocala cerogama",
+        "common_name": "Yellow-banded Underwing",
+        "family": "Erebidae",
+        "flight_months": [
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Catocala ultronia",
+        "common_name": "Ultronia Underwing",
+        "family": "Erebidae",
+        "flight_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Catocala vidua",
+        "common_name": "Widow Underwing",
+        "family": "Erebidae",
+        "flight_months": [
+          7,
+          8,
+          9
+        ],
+        "abundance": "uncommon"
+      },
+      {
+        "scientific_name": "Datana ministra",
+        "common_name": "Yellow-necked Caterpillar Moth",
+        "family": "Notodontidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Nadata gibbosa",
+        "common_name": "White-dotted Prominent",
+        "family": "Notodontidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Heterocampa guttivitta",
+        "common_name": "Saddled Prominent",
+        "family": "Notodontidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Nematocampa resistaria",
+        "common_name": "Horned Spanworm Moth",
+        "family": "Geometridae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Lambdina fiscellaria",
+        "common_name": "Hemlock Looper",
+        "family": "Geometridae",
+        "flight_months": [
+          9,
+          10,
+          11
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Prochoerodes lineola",
+        "common_name": "Large Maple Spanworm",
+        "family": "Geometridae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Xanthotype urticaria",
+        "common_name": "False Crocus Geometer",
+        "family": "Geometridae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Acronicta americana",
+        "common_name": "American Dagger Moth",
+        "family": "Noctuidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Feltia subterranea",
+        "common_name": "Subterranean Dart",
+        "family": "Noctuidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common"
+      },
+      {
+        "scientific_name": "Agrotis ipsilon",
+        "common_name": "Ipsilon Dart",
+        "family": "Noctuidae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "abundance": "common"
+      }
+    ]
+  },
+  "butterflies": {
+    "total": 50,
+    "by_family": {
+      "Papilionidae": [
+        "Eastern Tiger Swallowtail",
+        "Spicebush Swallowtail",
+        "Black Swallowtail",
+        "Appalachian Tiger Swallowtail",
+        "Pipevine Swallowtail",
+        "Palamedes Swallowtail"
+      ],
+      "Pieridae": [
+        "Cabbage White",
+        "Orange Sulphur",
+        "Clouded Sulphur",
+        "Cloudless Sulphur",
+        "Little Yellow"
+      ],
+      "Lycaenidae": [
+        "Spring Azure",
+        "Summer Azure",
+        "Eastern Tailed-Blue",
+        "Red-banded Hairstreak",
+        "Coral Hairstreak",
+        "Banded Hairstreak",
+        "Harvester"
+      ],
+      "Nymphalidae": [
+        "Monarch",
+        "Red-spotted Purple",
+        "Viceroy",
+        "Common Buckeye",
+        "Red Admiral",
+        "American Lady",
+        "Painted Lady",
+        "Mourning Cloak",
+        "Question Mark",
+        "Eastern Comma",
+        "Pearl Crescent",
+        "Variegated Fritillary",
+        "Diana Fritillary",
+        "Great Spangled Fritillary",
+        "Aphrodite Fritillary",
+        "Hackberry Emperor",
+        "Tawny Emperor",
+        "Common Wood-Nymph",
+        "Little Wood-Satyr",
+        "Appalachian Brown",
+        "Southern Pearly-eye",
+        "Georgia Satyr"
+      ],
+      "Hesperiidae": [
+        "Silver-spotted Skipper",
+        "Southern Cloudywing",
+        "Dreamy Duskywing",
+        "Juvenal's Duskywing",
+        "Common Checkered-Skipper",
+        "Least Skipper",
+        "European Skipper",
+        "Peck's Skipper",
+        "Sachem",
+        "Zabulon Skipper"
+      ]
+    },
+    "species": [
+      {
+        "scientific_name": "Papilio glaucus",
+        "common_name": "Eastern Tiger Swallowtail",
+        "family": "Papilionidae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "tulip tree",
+          "wild cherry",
+          "ash"
+        ]
+      },
+      {
+        "scientific_name": "Papilio troilus",
+        "common_name": "Spicebush Swallowtail",
+        "family": "Papilionidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "spicebush",
+          "sassafras"
+        ]
+      },
+      {
+        "scientific_name": "Papilio polyxenes",
+        "common_name": "Black Swallowtail",
+        "family": "Papilionidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "parsley",
+          "dill",
+          "carrot family"
+        ]
+      },
+      {
+        "scientific_name": "Papilio appalachiensis",
+        "common_name": "Appalachian Tiger Swallowtail",
+        "family": "Papilionidae",
+        "flight_months": [
+          5,
+          6,
+          7
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "wild cherry",
+          "tulip tree"
+        ],
+        "notes": "Appalachian endemic"
+      },
+      {
+        "scientific_name": "Battus philenor",
+        "common_name": "Pipevine Swallowtail",
+        "family": "Papilionidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "pipevine"
+        ]
+      },
+      {
+        "scientific_name": "Papilio palamedes",
+        "common_name": "Palamedes Swallowtail",
+        "family": "Papilionidae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "red bay",
+          "sassafras"
+        ]
+      },
+      {
+        "scientific_name": "Pieris rapae",
+        "common_name": "Cabbage White",
+        "family": "Pieridae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "abundance": "abundant",
+        "hostplants": [
+          "cabbage",
+          "mustards"
+        ]
+      },
+      {
+        "scientific_name": "Colias eurytheme",
+        "common_name": "Orange Sulphur",
+        "family": "Pieridae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "abundance": "abundant",
+        "hostplants": [
+          "clover",
+          "alfalfa"
+        ]
+      },
+      {
+        "scientific_name": "Colias philodice",
+        "common_name": "Clouded Sulphur",
+        "family": "Pieridae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "clover",
+          "alfalfa"
+        ]
+      },
+      {
+        "scientific_name": "Phoebis sennae",
+        "common_name": "Cloudless Sulphur",
+        "family": "Pieridae",
+        "flight_months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "senna"
+        ]
+      },
+      {
+        "scientific_name": "Eurema lisa",
+        "common_name": "Little Yellow",
+        "family": "Pieridae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "senna",
+          "partridge pea"
+        ]
+      },
+      {
+        "scientific_name": "Celastrina ladon",
+        "common_name": "Spring Azure",
+        "family": "Lycaenidae",
+        "flight_months": [
+          3,
+          4,
+          5
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "dogwood",
+          "viburnum",
+          "wild cherry"
+        ]
+      },
+      {
+        "scientific_name": "Celastrina neglecta",
+        "common_name": "Summer Azure",
+        "family": "Lycaenidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "dogwood",
+          "black cohosh"
+        ]
+      },
+      {
+        "scientific_name": "Cupido comyntas",
+        "common_name": "Eastern Tailed-Blue",
+        "family": "Lycaenidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "clover",
+          "vetch"
+        ]
+      },
+      {
+        "scientific_name": "Calycopis cecrops",
+        "common_name": "Red-banded Hairstreak",
+        "family": "Lycaenidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "sumac",
+          "oak detritus"
+        ]
+      },
+      {
+        "scientific_name": "Satyrium titus",
+        "common_name": "Coral Hairstreak",
+        "family": "Lycaenidae",
+        "flight_months": [
+          6,
+          7,
+          8
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "wild cherry",
+          "plum"
+        ]
+      },
+      {
+        "scientific_name": "Satyrium calanus",
+        "common_name": "Banded Hairstreak",
+        "family": "Lycaenidae",
+        "flight_months": [
+          5,
+          6,
+          7
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "oak",
+          "walnut",
+          "hickory"
+        ]
+      },
+      {
+        "scientific_name": "Feniseca tarquinius",
+        "common_name": "Harvester",
+        "family": "Lycaenidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "rare",
+        "hostplants": [
+          "woolly aphids"
+        ],
+        "notes": "Carnivorous caterpillar"
+      },
+      {
+        "scientific_name": "Danaus plexippus",
+        "common_name": "Monarch",
+        "family": "Nymphalidae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "milkweed"
+        ]
+      },
+      {
+        "scientific_name": "Limenitis arthemis astyanax",
+        "common_name": "Red-spotted Purple",
+        "family": "Nymphalidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "wild cherry",
+          "poplar",
+          "willow"
+        ]
+      },
+      {
+        "scientific_name": "Limenitis archippus",
+        "common_name": "Viceroy",
+        "family": "Nymphalidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "willow",
+          "poplar"
+        ]
+      },
+      {
+        "scientific_name": "Junonia coenia",
+        "common_name": "Common Buckeye",
+        "family": "Nymphalidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "plantain",
+          "snapdragon"
+        ]
+      },
+      {
+        "scientific_name": "Vanessa atalanta",
+        "common_name": "Red Admiral",
+        "family": "Nymphalidae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "nettle"
+        ]
+      },
+      {
+        "scientific_name": "Vanessa virginiensis",
+        "common_name": "American Lady",
+        "family": "Nymphalidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "pussytoes",
+          "everlasting"
+        ]
+      },
+      {
+        "scientific_name": "Vanessa cardui",
+        "common_name": "Painted Lady",
+        "family": "Nymphalidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "thistle",
+          "mallow"
+        ]
+      },
+      {
+        "scientific_name": "Nymphalis antiopa",
+        "common_name": "Mourning Cloak",
+        "family": "Nymphalidae",
+        "flight_months": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "willow",
+          "elm",
+          "poplar"
+        ]
+      },
+      {
+        "scientific_name": "Polygonia interrogationis",
+        "common_name": "Question Mark",
+        "family": "Nymphalidae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "elm",
+          "hackberry",
+          "nettle"
+        ]
+      },
+      {
+        "scientific_name": "Polygonia comma",
+        "common_name": "Eastern Comma",
+        "family": "Nymphalidae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "elm",
+          "nettle",
+          "hops"
+        ]
+      },
+      {
+        "scientific_name": "Phyciodes tharos",
+        "common_name": "Pearl Crescent",
+        "family": "Nymphalidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "abundant",
+        "hostplants": [
+          "aster"
+        ]
+      },
+      {
+        "scientific_name": "Euptoieta claudia",
+        "common_name": "Variegated Fritillary",
+        "family": "Nymphalidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "violet",
+          "passion vine",
+          "plantain"
+        ]
+      },
+      {
+        "scientific_name": "Speyeria diana",
+        "common_name": "Diana Fritillary",
+        "family": "Nymphalidae",
+        "flight_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "rare",
+        "hostplants": [
+          "violet"
+        ],
+        "notes": "Appalachian specialty, declining"
+      },
+      {
+        "scientific_name": "Speyeria cybele",
+        "common_name": "Great Spangled Fritillary",
+        "family": "Nymphalidae",
+        "flight_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "violet"
+        ]
+      },
+      {
+        "scientific_name": "Speyeria aphrodite",
+        "common_name": "Aphrodite Fritillary",
+        "family": "Nymphalidae",
+        "flight_months": [
+          6,
+          7,
+          8
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "violet"
+        ]
+      },
+      {
+        "scientific_name": "Asterocampa celtis",
+        "common_name": "Hackberry Emperor",
+        "family": "Nymphalidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "hackberry"
+        ]
+      },
+      {
+        "scientific_name": "Asterocampa clyton",
+        "common_name": "Tawny Emperor",
+        "family": "Nymphalidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "hackberry"
+        ]
+      },
+      {
+        "scientific_name": "Cercyonis pegala",
+        "common_name": "Common Wood-Nymph",
+        "family": "Nymphalidae",
+        "flight_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "grasses"
+        ]
+      },
+      {
+        "scientific_name": "Megisto cymela",
+        "common_name": "Little Wood-Satyr",
+        "family": "Nymphalidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "grasses"
+        ]
+      },
+      {
+        "scientific_name": "Satyrodes appalachia",
+        "common_name": "Appalachian Brown",
+        "family": "Nymphalidae",
+        "flight_months": [
+          6,
+          7,
+          8
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "sedges"
+        ]
+      },
+      {
+        "scientific_name": "Enodia portlandia",
+        "common_name": "Southern Pearly-eye",
+        "family": "Nymphalidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "cane",
+          "grasses"
+        ]
+      },
+      {
+        "scientific_name": "Neonympha areolatus",
+        "common_name": "Georgia Satyr",
+        "family": "Nymphalidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "grasses"
+        ]
+      },
+      {
+        "scientific_name": "Epargyreus clarus",
+        "common_name": "Silver-spotted Skipper",
+        "family": "Hesperiidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "locust",
+          "wisteria"
+        ]
+      },
+      {
+        "scientific_name": "Thorybes bathyllus",
+        "common_name": "Southern Cloudywing",
+        "family": "Hesperiidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "tick-trefoil",
+          "clover"
+        ]
+      },
+      {
+        "scientific_name": "Erynnis icelus",
+        "common_name": "Dreamy Duskywing",
+        "family": "Hesperiidae",
+        "flight_months": [
+          4,
+          5,
+          6
+        ],
+        "abundance": "uncommon",
+        "hostplants": [
+          "willow",
+          "poplar"
+        ]
+      },
+      {
+        "scientific_name": "Erynnis juvenalis",
+        "common_name": "Juvenal's Duskywing",
+        "family": "Hesperiidae",
+        "flight_months": [
+          4,
+          5,
+          6
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "oak"
+        ]
+      },
+      {
+        "scientific_name": "Pyrgus communis",
+        "common_name": "Common Checkered-Skipper",
+        "family": "Hesperiidae",
+        "flight_months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "mallow"
+        ]
+      },
+      {
+        "scientific_name": "Ancyloxypha numitor",
+        "common_name": "Least Skipper",
+        "family": "Hesperiidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "grasses"
+        ]
+      },
+      {
+        "scientific_name": "Thymelicus lineola",
+        "common_name": "European Skipper",
+        "family": "Hesperiidae",
+        "flight_months": [
+          6,
+          7
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "grasses"
+        ]
+      },
+      {
+        "scientific_name": "Polites peckius",
+        "common_name": "Peck's Skipper",
+        "family": "Hesperiidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "grasses"
+        ]
+      },
+      {
+        "scientific_name": "Atalopedes campestris",
+        "common_name": "Sachem",
+        "family": "Hesperiidae",
+        "flight_months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "grasses"
+        ]
+      },
+      {
+        "scientific_name": "Poanes zabulon",
+        "common_name": "Zabulon Skipper",
+        "family": "Hesperiidae",
+        "flight_months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "abundance": "common",
+        "hostplants": [
+          "grasses"
+        ]
+      }
+    ]
+  },
+  "plants": {
+    "source": "NC Native Plant Society / NC Natural Heritage Program",
+    "region": "Western North Carolina / Southern Appalachians",
+    "species": [
+      {
+        "scientific_name": "Quercus rubra",
+        "common_name": "Northern Red Oak",
+        "type": "tree",
+        "family": "Fagaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Quercus alba",
+        "common_name": "White Oak",
+        "type": "tree",
+        "family": "Fagaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Quercus montana",
+        "common_name": "Chestnut Oak",
+        "type": "tree",
+        "family": "Fagaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "ridges"
+      },
+      {
+        "scientific_name": "Quercus velutina",
+        "common_name": "Black Oak",
+        "type": "tree",
+        "family": "Fagaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Acer rubrum",
+        "common_name": "Red Maple",
+        "type": "tree",
+        "family": "Sapindaceae",
+        "bloom_months": [
+          2,
+          3,
+          4
+        ],
+        "habitat": "wetland, forest"
+      },
+      {
+        "scientific_name": "Acer saccharum",
+        "common_name": "Sugar Maple",
+        "type": "tree",
+        "family": "Sapindaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "cove forest"
+      },
+      {
+        "scientific_name": "Liriodendron tulipifera",
+        "common_name": "Tulip Poplar",
+        "type": "tree",
+        "family": "Magnoliaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "cove forest"
+      },
+      {
+        "scientific_name": "Fagus grandifolia",
+        "common_name": "American Beech",
+        "type": "tree",
+        "family": "Fagaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "cove forest"
+      },
+      {
+        "scientific_name": "Betula lenta",
+        "common_name": "Sweet Birch",
+        "type": "tree",
+        "family": "Betulaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "moist slopes"
+      },
+      {
+        "scientific_name": "Betula alleghaniensis",
+        "common_name": "Yellow Birch",
+        "type": "tree",
+        "family": "Betulaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "high elevation"
+      },
+      {
+        "scientific_name": "Tsuga canadensis",
+        "common_name": "Eastern Hemlock",
+        "type": "tree",
+        "family": "Pinaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "cove forest, streams"
+      },
+      {
+        "scientific_name": "Pinus strobus",
+        "common_name": "Eastern White Pine",
+        "type": "tree",
+        "family": "Pinaceae",
+        "bloom_months": [
+          5
+        ],
+        "habitat": "forest edges"
+      },
+      {
+        "scientific_name": "Pinus virginiana",
+        "common_name": "Virginia Pine",
+        "type": "tree",
+        "family": "Pinaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "dry ridges"
+      },
+      {
+        "scientific_name": "Carya glabra",
+        "common_name": "Pignut Hickory",
+        "type": "tree",
+        "family": "Juglandaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Carya tomentosa",
+        "common_name": "Mockernut Hickory",
+        "type": "tree",
+        "family": "Juglandaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Nyssa sylvatica",
+        "common_name": "Black Gum",
+        "type": "tree",
+        "family": "Nyssaceae",
+        "bloom_months": [
+          4,
+          5,
+          6
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Prunus serotina",
+        "common_name": "Black Cherry",
+        "type": "tree",
+        "family": "Rosaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Cornus florida",
+        "common_name": "Flowering Dogwood",
+        "type": "tree",
+        "family": "Cornaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest understory"
+      },
+      {
+        "scientific_name": "Oxydendrum arboreum",
+        "common_name": "Sourwood",
+        "type": "tree",
+        "family": "Ericaceae",
+        "bloom_months": [
+          6,
+          7
+        ],
+        "habitat": "forest edges"
+      },
+      {
+        "scientific_name": "Halesia tetraptera",
+        "common_name": "Carolina Silverbell",
+        "type": "tree",
+        "family": "Styracaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "cove forest"
+      },
+      {
+        "scientific_name": "Magnolia fraseri",
+        "common_name": "Fraser Magnolia",
+        "type": "tree",
+        "family": "Magnoliaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "cove forest"
+      },
+      {
+        "scientific_name": "Magnolia acuminata",
+        "common_name": "Cucumber Magnolia",
+        "type": "tree",
+        "family": "Magnoliaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "cove forest"
+      },
+      {
+        "scientific_name": "Tilia americana",
+        "common_name": "American Basswood",
+        "type": "tree",
+        "family": "Malvaceae",
+        "bloom_months": [
+          6,
+          7
+        ],
+        "habitat": "cove forest"
+      },
+      {
+        "scientific_name": "Castanea dentata",
+        "common_name": "American Chestnut",
+        "type": "tree",
+        "family": "Fagaceae",
+        "bloom_months": [
+          6,
+          7
+        ],
+        "habitat": "forest",
+        "notes": "Devastated by blight in BMC era"
+      },
+      {
+        "scientific_name": "Robinia pseudoacacia",
+        "common_name": "Black Locust",
+        "type": "tree",
+        "family": "Fabaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "forest edges"
+      },
+      {
+        "scientific_name": "Rhododendron maximum",
+        "common_name": "Rosebay Rhododendron",
+        "type": "shrub",
+        "family": "Ericaceae",
+        "bloom_months": [
+          6,
+          7
+        ],
+        "habitat": "streams, cove forest"
+      },
+      {
+        "scientific_name": "Rhododendron catawbiense",
+        "common_name": "Catawba Rhododendron",
+        "type": "shrub",
+        "family": "Ericaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "high elevation"
+      },
+      {
+        "scientific_name": "Kalmia latifolia",
+        "common_name": "Mountain Laurel",
+        "type": "shrub",
+        "family": "Ericaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Lindera benzoin",
+        "common_name": "Spicebush",
+        "type": "shrub",
+        "family": "Lauraceae",
+        "bloom_months": [
+          3,
+          4
+        ],
+        "habitat": "moist forest"
+      },
+      {
+        "scientific_name": "Hamamelis virginiana",
+        "common_name": "Witch Hazel",
+        "type": "shrub",
+        "family": "Hamamelidaceae",
+        "bloom_months": [
+          10,
+          11,
+          12
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Viburnum acerifolium",
+        "common_name": "Maple-leaf Viburnum",
+        "type": "shrub",
+        "family": "Adoxaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Viburnum lantanoides",
+        "common_name": "Hobblebush",
+        "type": "shrub",
+        "family": "Adoxaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "high elevation"
+      },
+      {
+        "scientific_name": "Hydrangea arborescens",
+        "common_name": "Wild Hydrangea",
+        "type": "shrub",
+        "family": "Hydrangeaceae",
+        "bloom_months": [
+          6,
+          7
+        ],
+        "habitat": "moist slopes"
+      },
+      {
+        "scientific_name": "Calycanthus floridus",
+        "common_name": "Sweetshrub",
+        "type": "shrub",
+        "family": "Calycanthaceae",
+        "bloom_months": [
+          4,
+          5,
+          6
+        ],
+        "habitat": "moist forest"
+      },
+      {
+        "scientific_name": "Euonymus americanus",
+        "common_name": "Strawberry Bush",
+        "type": "shrub",
+        "family": "Celastraceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Vaccinium corymbosum",
+        "common_name": "Highbush Blueberry",
+        "type": "shrub",
+        "family": "Ericaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "moist areas"
+      },
+      {
+        "scientific_name": "Vaccinium pallidum",
+        "common_name": "Lowbush Blueberry",
+        "type": "shrub",
+        "family": "Ericaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "dry forest"
+      },
+      {
+        "scientific_name": "Sanguinaria canadensis",
+        "common_name": "Bloodroot",
+        "type": "wildflower",
+        "family": "Papaveraceae",
+        "bloom_months": [
+          3,
+          4
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Claytonia virginica",
+        "common_name": "Spring Beauty",
+        "type": "wildflower",
+        "family": "Montiaceae",
+        "bloom_months": [
+          3,
+          4,
+          5
+        ],
+        "habitat": "moist forest"
+      },
+      {
+        "scientific_name": "Erythronium americanum",
+        "common_name": "Trout Lily",
+        "type": "wildflower",
+        "family": "Liliaceae",
+        "bloom_months": [
+          3,
+          4
+        ],
+        "habitat": "moist forest"
+      },
+      {
+        "scientific_name": "Trillium grandiflorum",
+        "common_name": "Large-flowered Trillium",
+        "type": "wildflower",
+        "family": "Melanthiaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Trillium erectum",
+        "common_name": "Red Trillium",
+        "type": "wildflower",
+        "family": "Melanthiaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Trillium catesbaei",
+        "common_name": "Rose Trillium",
+        "type": "wildflower",
+        "family": "Melanthiaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "acid forest"
+      },
+      {
+        "scientific_name": "Trillium undulatum",
+        "common_name": "Painted Trillium",
+        "type": "wildflower",
+        "family": "Melanthiaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "high elevation"
+      },
+      {
+        "scientific_name": "Dicentra cucullaria",
+        "common_name": "Dutchman's Breeches",
+        "type": "wildflower",
+        "family": "Papaveraceae",
+        "bloom_months": [
+          3,
+          4
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Dicentra canadensis",
+        "common_name": "Squirrel Corn",
+        "type": "wildflower",
+        "family": "Papaveraceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Hepatica acutiloba",
+        "common_name": "Sharp-lobed Hepatica",
+        "type": "wildflower",
+        "family": "Ranunculaceae",
+        "bloom_months": [
+          3,
+          4
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Anemone quinquefolia",
+        "common_name": "Wood Anemone",
+        "type": "wildflower",
+        "family": "Ranunculaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Thalictrum thalictroides",
+        "common_name": "Rue Anemone",
+        "type": "wildflower",
+        "family": "Ranunculaceae",
+        "bloom_months": [
+          3,
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Viola canadensis",
+        "common_name": "Canada Violet",
+        "type": "wildflower",
+        "family": "Violaceae",
+        "bloom_months": [
+          4,
+          5,
+          6
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Viola pubescens",
+        "common_name": "Downy Yellow Violet",
+        "type": "wildflower",
+        "family": "Violaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Viola sororia",
+        "common_name": "Common Blue Violet",
+        "type": "wildflower",
+        "family": "Violaceae",
+        "bloom_months": [
+          3,
+          4,
+          5
+        ],
+        "habitat": "meadows, forest"
+      },
+      {
+        "scientific_name": "Mertensia virginica",
+        "common_name": "Virginia Bluebells",
+        "type": "wildflower",
+        "family": "Boraginaceae",
+        "bloom_months": [
+          3,
+          4,
+          5
+        ],
+        "habitat": "floodplain"
+      },
+      {
+        "scientific_name": "Podophyllum peltatum",
+        "common_name": "Mayapple",
+        "type": "wildflower",
+        "family": "Berberidaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Caulophyllum thalictroides",
+        "common_name": "Blue Cohosh",
+        "type": "wildflower",
+        "family": "Berberidaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Actaea racemosa",
+        "common_name": "Black Cohosh",
+        "type": "wildflower",
+        "family": "Ranunculaceae",
+        "bloom_months": [
+          5,
+          6,
+          7
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Uvularia grandiflora",
+        "common_name": "Large-flowered Bellwort",
+        "type": "wildflower",
+        "family": "Colchicaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Polygonatum biflorum",
+        "common_name": "Solomon's Seal",
+        "type": "wildflower",
+        "family": "Asparagaceae",
+        "bloom_months": [
+          4,
+          5,
+          6
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Maianthemum racemosum",
+        "common_name": "False Solomon's Seal",
+        "type": "wildflower",
+        "family": "Asparagaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Disporum lanuginosum",
+        "common_name": "Yellow Mandarin",
+        "type": "wildflower",
+        "family": "Colchicaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Clintonia umbellulata",
+        "common_name": "Speckled Wood Lily",
+        "type": "wildflower",
+        "family": "Liliaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Galax urceolata",
+        "common_name": "Galax",
+        "type": "wildflower",
+        "family": "Diapensiaceae",
+        "bloom_months": [
+          5,
+          6
+        ],
+        "habitat": "acid forest"
+      },
+      {
+        "scientific_name": "Shortia galacifolia",
+        "common_name": "Oconee Bells",
+        "type": "wildflower",
+        "family": "Diapensiaceae",
+        "bloom_months": [
+          3,
+          4
+        ],
+        "habitat": "stream banks",
+        "notes": "Rare Southern Appalachian endemic"
+      },
+      {
+        "scientific_name": "Monarda didyma",
+        "common_name": "Bee Balm",
+        "type": "wildflower",
+        "family": "Lamiaceae",
+        "bloom_months": [
+          7,
+          8,
+          9
+        ],
+        "habitat": "moist areas"
+      },
+      {
+        "scientific_name": "Phlox divaricata",
+        "common_name": "Wild Blue Phlox",
+        "type": "wildflower",
+        "family": "Polemoniaceae",
+        "bloom_months": [
+          4,
+          5,
+          6
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Phlox stolonifera",
+        "common_name": "Creeping Phlox",
+        "type": "wildflower",
+        "family": "Polemoniaceae",
+        "bloom_months": [
+          4,
+          5
+        ],
+        "habitat": "rich forest"
+      },
+      {
+        "scientific_name": "Lobelia cardinalis",
+        "common_name": "Cardinal Flower",
+        "type": "wildflower",
+        "family": "Campanulaceae",
+        "bloom_months": [
+          7,
+          8,
+          9
+        ],
+        "habitat": "stream banks"
+      },
+      {
+        "scientific_name": "Lobelia siphilitica",
+        "common_name": "Great Blue Lobelia",
+        "type": "wildflower",
+        "family": "Campanulaceae",
+        "bloom_months": [
+          8,
+          9,
+          10
+        ],
+        "habitat": "wet meadows"
+      },
+      {
+        "scientific_name": "Impatiens capensis",
+        "common_name": "Jewelweed",
+        "type": "wildflower",
+        "family": "Balsaminaceae",
+        "bloom_months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "habitat": "moist areas"
+      },
+      {
+        "scientific_name": "Asclepias tuberosa",
+        "common_name": "Butterfly Weed",
+        "type": "wildflower",
+        "family": "Apocynaceae",
+        "bloom_months": [
+          6,
+          7,
+          8
+        ],
+        "habitat": "dry meadows"
+      },
+      {
+        "scientific_name": "Asclepias syriaca",
+        "common_name": "Common Milkweed",
+        "type": "wildflower",
+        "family": "Apocynaceae",
+        "bloom_months": [
+          6,
+          7
+        ],
+        "habitat": "fields, roadsides"
+      },
+      {
+        "scientific_name": "Aquilegia canadensis",
+        "common_name": "Wild Columbine",
+        "type": "wildflower",
+        "family": "Ranunculaceae",
+        "bloom_months": [
+          4,
+          5,
+          6
+        ],
+        "habitat": "rocky slopes"
+      },
+      {
+        "scientific_name": "Lilium superbum",
+        "common_name": "Turk's Cap Lily",
+        "type": "wildflower",
+        "family": "Liliaceae",
+        "bloom_months": [
+          7,
+          8
+        ],
+        "habitat": "wet meadows"
+      },
+      {
+        "scientific_name": "Lilium michauxii",
+        "common_name": "Carolina Lily",
+        "type": "wildflower",
+        "family": "Liliaceae",
+        "bloom_months": [
+          7,
+          8
+        ],
+        "habitat": "dry forest"
+      },
+      {
+        "scientific_name": "Chelone lyonii",
+        "common_name": "Pink Turtlehead",
+        "type": "wildflower",
+        "family": "Plantaginaceae",
+        "bloom_months": [
+          7,
+          8,
+          9
+        ],
+        "habitat": "wet areas"
+      },
+      {
+        "scientific_name": "Eupatorium purpureum",
+        "common_name": "Joe Pye Weed",
+        "type": "wildflower",
+        "family": "Asteraceae",
+        "bloom_months": [
+          7,
+          8,
+          9
+        ],
+        "habitat": "wet meadows"
+      },
+      {
+        "scientific_name": "Eutrochium fistulosum",
+        "common_name": "Hollow Joe Pye Weed",
+        "type": "wildflower",
+        "family": "Asteraceae",
+        "bloom_months": [
+          7,
+          8,
+          9
+        ],
+        "habitat": "wet areas"
+      },
+      {
+        "scientific_name": "Vernonia noveboracensis",
+        "common_name": "New York Ironweed",
+        "type": "wildflower",
+        "family": "Asteraceae",
+        "bloom_months": [
+          8,
+          9,
+          10
+        ],
+        "habitat": "wet meadows"
+      },
+      {
+        "scientific_name": "Solidago caesia",
+        "common_name": "Blue-stemmed Goldenrod",
+        "type": "wildflower",
+        "family": "Asteraceae",
+        "bloom_months": [
+          8,
+          9,
+          10
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Solidago curtisii",
+        "common_name": "Curtis's Goldenrod",
+        "type": "wildflower",
+        "family": "Asteraceae",
+        "bloom_months": [
+          8,
+          9,
+          10
+        ],
+        "habitat": "high elevation",
+        "notes": "Appalachian endemic"
+      },
+      {
+        "scientific_name": "Symphyotrichum cordifolium",
+        "common_name": "Heart-leaved Aster",
+        "type": "wildflower",
+        "family": "Asteraceae",
+        "bloom_months": [
+          9,
+          10
+        ],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Symphyotrichum novae-angliae",
+        "common_name": "New England Aster",
+        "type": "wildflower",
+        "family": "Asteraceae",
+        "bloom_months": [
+          8,
+          9,
+          10
+        ],
+        "habitat": "meadows"
+      },
+      {
+        "scientific_name": "Gentiana saponaria",
+        "common_name": "Soapwort Gentian",
+        "type": "wildflower",
+        "family": "Gentianaceae",
+        "bloom_months": [
+          9,
+          10,
+          11
+        ],
+        "habitat": "wet meadows"
+      },
+      {
+        "scientific_name": "Gentiana decora",
+        "common_name": "Showy Gentian",
+        "type": "wildflower",
+        "family": "Gentianaceae",
+        "bloom_months": [
+          9,
+          10
+        ],
+        "habitat": "meadows"
+      },
+      {
+        "scientific_name": "Polystichum acrostichoides",
+        "common_name": "Christmas Fern",
+        "type": "fern",
+        "family": "Dryopteridaceae",
+        "bloom_months": [],
+        "habitat": "forest"
+      },
+      {
+        "scientific_name": "Dryopteris marginalis",
+        "common_name": "Marginal Wood Fern",
+        "type": "fern",
+        "family": "Dryopteridaceae",
+        "bloom_months": [],
+        "habitat": "rocky slopes"
+      },
+      {
+        "scientific_name": "Athyrium filix-femina",
+        "common_name": "Lady Fern",
+        "type": "fern",
+        "family": "Athyriaceae",
+        "bloom_months": [],
+        "habitat": "moist forest"
+      },
+      {
+        "scientific_name": "Osmunda cinnamomea",
+        "common_name": "Cinnamon Fern",
+        "type": "fern",
+        "family": "Osmundaceae",
+        "bloom_months": [],
+        "habitat": "wet areas"
+      },
+      {
+        "scientific_name": "Osmunda regalis",
+        "common_name": "Royal Fern",
+        "type": "fern",
+        "family": "Osmundaceae",
+        "bloom_months": [],
+        "habitat": "wet areas"
+      },
+      {
+        "scientific_name": "Adiantum pedatum",
+        "common_name": "Maidenhair Fern",
+        "type": "fern",
+        "family": "Pteridaceae",
+        "bloom_months": [],
+        "habitat": "rich forest"
+      }
+    ],
+    "notes": [
+      "Native plants of Southern Appalachians / Blue Ridge region",
+      "Includes Appalachian endemic species"
+    ],
+    "total_species": 90,
+    "by_type": {
+      "trees": [
+        {
+          "scientific_name": "Quercus rubra",
+          "common_name": "Northern Red Oak",
+          "type": "tree",
+          "family": "Fagaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Quercus alba",
+          "common_name": "White Oak",
+          "type": "tree",
+          "family": "Fagaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Quercus montana",
+          "common_name": "Chestnut Oak",
+          "type": "tree",
+          "family": "Fagaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "ridges"
+        },
+        {
+          "scientific_name": "Quercus velutina",
+          "common_name": "Black Oak",
+          "type": "tree",
+          "family": "Fagaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Acer rubrum",
+          "common_name": "Red Maple",
+          "type": "tree",
+          "family": "Sapindaceae",
+          "bloom_months": [
+            2,
+            3,
+            4
+          ],
+          "habitat": "wetland, forest"
+        },
+        {
+          "scientific_name": "Acer saccharum",
+          "common_name": "Sugar Maple",
+          "type": "tree",
+          "family": "Sapindaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "cove forest"
+        },
+        {
+          "scientific_name": "Liriodendron tulipifera",
+          "common_name": "Tulip Poplar",
+          "type": "tree",
+          "family": "Magnoliaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "cove forest"
+        },
+        {
+          "scientific_name": "Fagus grandifolia",
+          "common_name": "American Beech",
+          "type": "tree",
+          "family": "Fagaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "cove forest"
+        },
+        {
+          "scientific_name": "Betula lenta",
+          "common_name": "Sweet Birch",
+          "type": "tree",
+          "family": "Betulaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "moist slopes"
+        },
+        {
+          "scientific_name": "Betula alleghaniensis",
+          "common_name": "Yellow Birch",
+          "type": "tree",
+          "family": "Betulaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "high elevation"
+        },
+        {
+          "scientific_name": "Tsuga canadensis",
+          "common_name": "Eastern Hemlock",
+          "type": "tree",
+          "family": "Pinaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "cove forest, streams"
+        },
+        {
+          "scientific_name": "Pinus strobus",
+          "common_name": "Eastern White Pine",
+          "type": "tree",
+          "family": "Pinaceae",
+          "bloom_months": [
+            5
+          ],
+          "habitat": "forest edges"
+        },
+        {
+          "scientific_name": "Pinus virginiana",
+          "common_name": "Virginia Pine",
+          "type": "tree",
+          "family": "Pinaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "dry ridges"
+        },
+        {
+          "scientific_name": "Carya glabra",
+          "common_name": "Pignut Hickory",
+          "type": "tree",
+          "family": "Juglandaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Carya tomentosa",
+          "common_name": "Mockernut Hickory",
+          "type": "tree",
+          "family": "Juglandaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Nyssa sylvatica",
+          "common_name": "Black Gum",
+          "type": "tree",
+          "family": "Nyssaceae",
+          "bloom_months": [
+            4,
+            5,
+            6
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Prunus serotina",
+          "common_name": "Black Cherry",
+          "type": "tree",
+          "family": "Rosaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Cornus florida",
+          "common_name": "Flowering Dogwood",
+          "type": "tree",
+          "family": "Cornaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest understory"
+        },
+        {
+          "scientific_name": "Oxydendrum arboreum",
+          "common_name": "Sourwood",
+          "type": "tree",
+          "family": "Ericaceae",
+          "bloom_months": [
+            6,
+            7
+          ],
+          "habitat": "forest edges"
+        },
+        {
+          "scientific_name": "Halesia tetraptera",
+          "common_name": "Carolina Silverbell",
+          "type": "tree",
+          "family": "Styracaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "cove forest"
+        },
+        {
+          "scientific_name": "Magnolia fraseri",
+          "common_name": "Fraser Magnolia",
+          "type": "tree",
+          "family": "Magnoliaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "cove forest"
+        },
+        {
+          "scientific_name": "Magnolia acuminata",
+          "common_name": "Cucumber Magnolia",
+          "type": "tree",
+          "family": "Magnoliaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "cove forest"
+        },
+        {
+          "scientific_name": "Tilia americana",
+          "common_name": "American Basswood",
+          "type": "tree",
+          "family": "Malvaceae",
+          "bloom_months": [
+            6,
+            7
+          ],
+          "habitat": "cove forest"
+        },
+        {
+          "scientific_name": "Castanea dentata",
+          "common_name": "American Chestnut",
+          "type": "tree",
+          "family": "Fagaceae",
+          "bloom_months": [
+            6,
+            7
+          ],
+          "habitat": "forest",
+          "notes": "Devastated by blight in BMC era"
+        },
+        {
+          "scientific_name": "Robinia pseudoacacia",
+          "common_name": "Black Locust",
+          "type": "tree",
+          "family": "Fabaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "forest edges"
+        }
+      ],
+      "shrubs": [
+        {
+          "scientific_name": "Rhododendron maximum",
+          "common_name": "Rosebay Rhododendron",
+          "type": "shrub",
+          "family": "Ericaceae",
+          "bloom_months": [
+            6,
+            7
+          ],
+          "habitat": "streams, cove forest"
+        },
+        {
+          "scientific_name": "Rhododendron catawbiense",
+          "common_name": "Catawba Rhododendron",
+          "type": "shrub",
+          "family": "Ericaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "high elevation"
+        },
+        {
+          "scientific_name": "Kalmia latifolia",
+          "common_name": "Mountain Laurel",
+          "type": "shrub",
+          "family": "Ericaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Lindera benzoin",
+          "common_name": "Spicebush",
+          "type": "shrub",
+          "family": "Lauraceae",
+          "bloom_months": [
+            3,
+            4
+          ],
+          "habitat": "moist forest"
+        },
+        {
+          "scientific_name": "Hamamelis virginiana",
+          "common_name": "Witch Hazel",
+          "type": "shrub",
+          "family": "Hamamelidaceae",
+          "bloom_months": [
+            10,
+            11,
+            12
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Viburnum acerifolium",
+          "common_name": "Maple-leaf Viburnum",
+          "type": "shrub",
+          "family": "Adoxaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Viburnum lantanoides",
+          "common_name": "Hobblebush",
+          "type": "shrub",
+          "family": "Adoxaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "high elevation"
+        },
+        {
+          "scientific_name": "Hydrangea arborescens",
+          "common_name": "Wild Hydrangea",
+          "type": "shrub",
+          "family": "Hydrangeaceae",
+          "bloom_months": [
+            6,
+            7
+          ],
+          "habitat": "moist slopes"
+        },
+        {
+          "scientific_name": "Calycanthus floridus",
+          "common_name": "Sweetshrub",
+          "type": "shrub",
+          "family": "Calycanthaceae",
+          "bloom_months": [
+            4,
+            5,
+            6
+          ],
+          "habitat": "moist forest"
+        },
+        {
+          "scientific_name": "Euonymus americanus",
+          "common_name": "Strawberry Bush",
+          "type": "shrub",
+          "family": "Celastraceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Vaccinium corymbosum",
+          "common_name": "Highbush Blueberry",
+          "type": "shrub",
+          "family": "Ericaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "moist areas"
+        },
+        {
+          "scientific_name": "Vaccinium pallidum",
+          "common_name": "Lowbush Blueberry",
+          "type": "shrub",
+          "family": "Ericaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "dry forest"
+        }
+      ],
+      "wildflowers": [
+        {
+          "scientific_name": "Sanguinaria canadensis",
+          "common_name": "Bloodroot",
+          "type": "wildflower",
+          "family": "Papaveraceae",
+          "bloom_months": [
+            3,
+            4
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Claytonia virginica",
+          "common_name": "Spring Beauty",
+          "type": "wildflower",
+          "family": "Montiaceae",
+          "bloom_months": [
+            3,
+            4,
+            5
+          ],
+          "habitat": "moist forest"
+        },
+        {
+          "scientific_name": "Erythronium americanum",
+          "common_name": "Trout Lily",
+          "type": "wildflower",
+          "family": "Liliaceae",
+          "bloom_months": [
+            3,
+            4
+          ],
+          "habitat": "moist forest"
+        },
+        {
+          "scientific_name": "Trillium grandiflorum",
+          "common_name": "Large-flowered Trillium",
+          "type": "wildflower",
+          "family": "Melanthiaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Trillium erectum",
+          "common_name": "Red Trillium",
+          "type": "wildflower",
+          "family": "Melanthiaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Trillium catesbaei",
+          "common_name": "Rose Trillium",
+          "type": "wildflower",
+          "family": "Melanthiaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "acid forest"
+        },
+        {
+          "scientific_name": "Trillium undulatum",
+          "common_name": "Painted Trillium",
+          "type": "wildflower",
+          "family": "Melanthiaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "high elevation"
+        },
+        {
+          "scientific_name": "Dicentra cucullaria",
+          "common_name": "Dutchman's Breeches",
+          "type": "wildflower",
+          "family": "Papaveraceae",
+          "bloom_months": [
+            3,
+            4
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Dicentra canadensis",
+          "common_name": "Squirrel Corn",
+          "type": "wildflower",
+          "family": "Papaveraceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Hepatica acutiloba",
+          "common_name": "Sharp-lobed Hepatica",
+          "type": "wildflower",
+          "family": "Ranunculaceae",
+          "bloom_months": [
+            3,
+            4
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Anemone quinquefolia",
+          "common_name": "Wood Anemone",
+          "type": "wildflower",
+          "family": "Ranunculaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Thalictrum thalictroides",
+          "common_name": "Rue Anemone",
+          "type": "wildflower",
+          "family": "Ranunculaceae",
+          "bloom_months": [
+            3,
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Viola canadensis",
+          "common_name": "Canada Violet",
+          "type": "wildflower",
+          "family": "Violaceae",
+          "bloom_months": [
+            4,
+            5,
+            6
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Viola pubescens",
+          "common_name": "Downy Yellow Violet",
+          "type": "wildflower",
+          "family": "Violaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Viola sororia",
+          "common_name": "Common Blue Violet",
+          "type": "wildflower",
+          "family": "Violaceae",
+          "bloom_months": [
+            3,
+            4,
+            5
+          ],
+          "habitat": "meadows, forest"
+        },
+        {
+          "scientific_name": "Mertensia virginica",
+          "common_name": "Virginia Bluebells",
+          "type": "wildflower",
+          "family": "Boraginaceae",
+          "bloom_months": [
+            3,
+            4,
+            5
+          ],
+          "habitat": "floodplain"
+        },
+        {
+          "scientific_name": "Podophyllum peltatum",
+          "common_name": "Mayapple",
+          "type": "wildflower",
+          "family": "Berberidaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Caulophyllum thalictroides",
+          "common_name": "Blue Cohosh",
+          "type": "wildflower",
+          "family": "Berberidaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Actaea racemosa",
+          "common_name": "Black Cohosh",
+          "type": "wildflower",
+          "family": "Ranunculaceae",
+          "bloom_months": [
+            5,
+            6,
+            7
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Uvularia grandiflora",
+          "common_name": "Large-flowered Bellwort",
+          "type": "wildflower",
+          "family": "Colchicaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Polygonatum biflorum",
+          "common_name": "Solomon's Seal",
+          "type": "wildflower",
+          "family": "Asparagaceae",
+          "bloom_months": [
+            4,
+            5,
+            6
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Maianthemum racemosum",
+          "common_name": "False Solomon's Seal",
+          "type": "wildflower",
+          "family": "Asparagaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Disporum lanuginosum",
+          "common_name": "Yellow Mandarin",
+          "type": "wildflower",
+          "family": "Colchicaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Clintonia umbellulata",
+          "common_name": "Speckled Wood Lily",
+          "type": "wildflower",
+          "family": "Liliaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Galax urceolata",
+          "common_name": "Galax",
+          "type": "wildflower",
+          "family": "Diapensiaceae",
+          "bloom_months": [
+            5,
+            6
+          ],
+          "habitat": "acid forest"
+        },
+        {
+          "scientific_name": "Shortia galacifolia",
+          "common_name": "Oconee Bells",
+          "type": "wildflower",
+          "family": "Diapensiaceae",
+          "bloom_months": [
+            3,
+            4
+          ],
+          "habitat": "stream banks",
+          "notes": "Rare Southern Appalachian endemic"
+        },
+        {
+          "scientific_name": "Monarda didyma",
+          "common_name": "Bee Balm",
+          "type": "wildflower",
+          "family": "Lamiaceae",
+          "bloom_months": [
+            7,
+            8,
+            9
+          ],
+          "habitat": "moist areas"
+        },
+        {
+          "scientific_name": "Phlox divaricata",
+          "common_name": "Wild Blue Phlox",
+          "type": "wildflower",
+          "family": "Polemoniaceae",
+          "bloom_months": [
+            4,
+            5,
+            6
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Phlox stolonifera",
+          "common_name": "Creeping Phlox",
+          "type": "wildflower",
+          "family": "Polemoniaceae",
+          "bloom_months": [
+            4,
+            5
+          ],
+          "habitat": "rich forest"
+        },
+        {
+          "scientific_name": "Lobelia cardinalis",
+          "common_name": "Cardinal Flower",
+          "type": "wildflower",
+          "family": "Campanulaceae",
+          "bloom_months": [
+            7,
+            8,
+            9
+          ],
+          "habitat": "stream banks"
+        },
+        {
+          "scientific_name": "Lobelia siphilitica",
+          "common_name": "Great Blue Lobelia",
+          "type": "wildflower",
+          "family": "Campanulaceae",
+          "bloom_months": [
+            8,
+            9,
+            10
+          ],
+          "habitat": "wet meadows"
+        },
+        {
+          "scientific_name": "Impatiens capensis",
+          "common_name": "Jewelweed",
+          "type": "wildflower",
+          "family": "Balsaminaceae",
+          "bloom_months": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "habitat": "moist areas"
+        },
+        {
+          "scientific_name": "Asclepias tuberosa",
+          "common_name": "Butterfly Weed",
+          "type": "wildflower",
+          "family": "Apocynaceae",
+          "bloom_months": [
+            6,
+            7,
+            8
+          ],
+          "habitat": "dry meadows"
+        },
+        {
+          "scientific_name": "Asclepias syriaca",
+          "common_name": "Common Milkweed",
+          "type": "wildflower",
+          "family": "Apocynaceae",
+          "bloom_months": [
+            6,
+            7
+          ],
+          "habitat": "fields, roadsides"
+        },
+        {
+          "scientific_name": "Aquilegia canadensis",
+          "common_name": "Wild Columbine",
+          "type": "wildflower",
+          "family": "Ranunculaceae",
+          "bloom_months": [
+            4,
+            5,
+            6
+          ],
+          "habitat": "rocky slopes"
+        },
+        {
+          "scientific_name": "Lilium superbum",
+          "common_name": "Turk's Cap Lily",
+          "type": "wildflower",
+          "family": "Liliaceae",
+          "bloom_months": [
+            7,
+            8
+          ],
+          "habitat": "wet meadows"
+        },
+        {
+          "scientific_name": "Lilium michauxii",
+          "common_name": "Carolina Lily",
+          "type": "wildflower",
+          "family": "Liliaceae",
+          "bloom_months": [
+            7,
+            8
+          ],
+          "habitat": "dry forest"
+        },
+        {
+          "scientific_name": "Chelone lyonii",
+          "common_name": "Pink Turtlehead",
+          "type": "wildflower",
+          "family": "Plantaginaceae",
+          "bloom_months": [
+            7,
+            8,
+            9
+          ],
+          "habitat": "wet areas"
+        },
+        {
+          "scientific_name": "Eupatorium purpureum",
+          "common_name": "Joe Pye Weed",
+          "type": "wildflower",
+          "family": "Asteraceae",
+          "bloom_months": [
+            7,
+            8,
+            9
+          ],
+          "habitat": "wet meadows"
+        },
+        {
+          "scientific_name": "Eutrochium fistulosum",
+          "common_name": "Hollow Joe Pye Weed",
+          "type": "wildflower",
+          "family": "Asteraceae",
+          "bloom_months": [
+            7,
+            8,
+            9
+          ],
+          "habitat": "wet areas"
+        },
+        {
+          "scientific_name": "Vernonia noveboracensis",
+          "common_name": "New York Ironweed",
+          "type": "wildflower",
+          "family": "Asteraceae",
+          "bloom_months": [
+            8,
+            9,
+            10
+          ],
+          "habitat": "wet meadows"
+        },
+        {
+          "scientific_name": "Solidago caesia",
+          "common_name": "Blue-stemmed Goldenrod",
+          "type": "wildflower",
+          "family": "Asteraceae",
+          "bloom_months": [
+            8,
+            9,
+            10
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Solidago curtisii",
+          "common_name": "Curtis's Goldenrod",
+          "type": "wildflower",
+          "family": "Asteraceae",
+          "bloom_months": [
+            8,
+            9,
+            10
+          ],
+          "habitat": "high elevation",
+          "notes": "Appalachian endemic"
+        },
+        {
+          "scientific_name": "Symphyotrichum cordifolium",
+          "common_name": "Heart-leaved Aster",
+          "type": "wildflower",
+          "family": "Asteraceae",
+          "bloom_months": [
+            9,
+            10
+          ],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Symphyotrichum novae-angliae",
+          "common_name": "New England Aster",
+          "type": "wildflower",
+          "family": "Asteraceae",
+          "bloom_months": [
+            8,
+            9,
+            10
+          ],
+          "habitat": "meadows"
+        },
+        {
+          "scientific_name": "Gentiana saponaria",
+          "common_name": "Soapwort Gentian",
+          "type": "wildflower",
+          "family": "Gentianaceae",
+          "bloom_months": [
+            9,
+            10,
+            11
+          ],
+          "habitat": "wet meadows"
+        },
+        {
+          "scientific_name": "Gentiana decora",
+          "common_name": "Showy Gentian",
+          "type": "wildflower",
+          "family": "Gentianaceae",
+          "bloom_months": [
+            9,
+            10
+          ],
+          "habitat": "meadows"
+        }
+      ],
+      "ferns": [
+        {
+          "scientific_name": "Polystichum acrostichoides",
+          "common_name": "Christmas Fern",
+          "type": "fern",
+          "family": "Dryopteridaceae",
+          "bloom_months": [],
+          "habitat": "forest"
+        },
+        {
+          "scientific_name": "Dryopteris marginalis",
+          "common_name": "Marginal Wood Fern",
+          "type": "fern",
+          "family": "Dryopteridaceae",
+          "bloom_months": [],
+          "habitat": "rocky slopes"
+        },
+        {
+          "scientific_name": "Athyrium filix-femina",
+          "common_name": "Lady Fern",
+          "type": "fern",
+          "family": "Athyriaceae",
+          "bloom_months": [],
+          "habitat": "moist forest"
+        },
+        {
+          "scientific_name": "Osmunda cinnamomea",
+          "common_name": "Cinnamon Fern",
+          "type": "fern",
+          "family": "Osmundaceae",
+          "bloom_months": [],
+          "habitat": "wet areas"
+        },
+        {
+          "scientific_name": "Osmunda regalis",
+          "common_name": "Royal Fern",
+          "type": "fern",
+          "family": "Osmundaceae",
+          "bloom_months": [],
+          "habitat": "wet areas"
+        },
+        {
+          "scientific_name": "Adiantum pedatum",
+          "common_name": "Maidenhair Fern",
+          "type": "fern",
+          "family": "Pteridaceae",
+          "bloom_months": [],
+          "habitat": "rich forest"
+        }
+      ]
+    }
+  }
+}

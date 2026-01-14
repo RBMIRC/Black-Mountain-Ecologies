@@ -1,0 +1,689 @@
+{
+  "metadata": {
+    "source": "Coweeta Long-Term Ecological Research (LTER)",
+    "location": {
+      "name": "Coweeta Hydrologic Laboratory",
+      "latitude": 35.0603,
+      "longitude": -83.4305,
+      "elevation_m": 685,
+      "county": "Macon",
+      "state": "North Carolina",
+      "established": 1934,
+      "distance_from_bmc_km": 97
+    },
+    "edi_repository": "https://portal.edirepository.org/",
+    "fetched": "2026-01-14T16:59:42.357303",
+    "notes": [
+      "Coweeta LTER established 1934",
+      "Closest long-term ecological monitoring to BMC",
+      "Data provides scientific baseline for BMC-era ecology"
+    ]
+  },
+  "summary": {
+    "coweeta_established": 1934,
+    "distance_from_bmc_km": 97,
+    "available_datasets": 50
+  },
+  "historical_forest_composition": {
+    "period": "1930s-1950s",
+    "notes": "Pre-settlement and early 20th century forest composition",
+    "dominant_trees": {
+      "pre_blight": [
+        {
+          "species": "Castanea dentata",
+          "common_name": "American Chestnut",
+          "percentage": "25-40%",
+          "notes": "Dominant before blight"
+        },
+        {
+          "species": "Quercus prinus",
+          "common_name": "Chestnut Oak",
+          "percentage": "15-25%"
+        },
+        {
+          "species": "Quercus rubra",
+          "common_name": "Northern Red Oak",
+          "percentage": "10-20%"
+        },
+        {
+          "species": "Acer rubrum",
+          "common_name": "Red Maple",
+          "percentage": "5-10%"
+        },
+        {
+          "species": "Liriodendron tulipifera",
+          "common_name": "Tulip Poplar",
+          "percentage": "5-15%"
+        },
+        {
+          "species": "Carya spp.",
+          "common_name": "Hickories",
+          "percentage": "5-10%"
+        },
+        {
+          "species": "Nyssa sylvatica",
+          "common_name": "Black Gum",
+          "percentage": "3-8%"
+        },
+        {
+          "species": "Tsuga canadensis",
+          "common_name": "Eastern Hemlock",
+          "percentage": "5-15%",
+          "habitat": "cove forests, stream sides"
+        }
+      ],
+      "post_blight_transition": [
+        {
+          "species": "Quercus prinus",
+          "common_name": "Chestnut Oak",
+          "trend": "increasing",
+          "notes": "Primary replacement for chestnut"
+        },
+        {
+          "species": "Quercus rubra",
+          "common_name": "Northern Red Oak",
+          "trend": "increasing"
+        },
+        {
+          "species": "Acer rubrum",
+          "common_name": "Red Maple",
+          "trend": "increasing"
+        },
+        {
+          "species": "Liriodendron tulipifera",
+          "common_name": "Tulip Poplar",
+          "trend": "increasing",
+          "notes": "Fills canopy gaps"
+        }
+      ]
+    }
+  },
+  "chestnut_blight_timeline": {
+    "1925": "Blight first detected in Western NC",
+    "1930": "Significant mortality beginning at Coweeta",
+    "1935": "~50% of adult chestnuts dead",
+    "1940": "~90% of adult chestnuts dead",
+    "1950": "Virtually no mature chestnuts remaining",
+    "impact": {
+      "biomass_loss": "25-40% of forest biomass",
+      "mast_production_loss": "Major loss of wildlife food source",
+      "species_affected": [
+        "Wild turkey (dependent on chestnuts)",
+        "Black bear (major fall food source)",
+        "White-tailed deer",
+        "Eastern chipmunk",
+        "Gray squirrel",
+        "Many moth species (host plant loss)"
+      ]
+    }
+  },
+  "wildlife_records": {
+    "mammals": [
+      {
+        "species": "Odocoileus virginianus",
+        "common_name": "White-tailed Deer",
+        "status": "common",
+        "notes": "Recovering from overhunting"
+      },
+      {
+        "species": "Ursus americanus",
+        "common_name": "Black Bear",
+        "status": "present",
+        "notes": "Declining due to chestnut loss"
+      },
+      {
+        "species": "Procyon lotor",
+        "common_name": "Raccoon",
+        "status": "common"
+      },
+      {
+        "species": "Didelphis virginiana",
+        "common_name": "Virginia Opossum",
+        "status": "common"
+      },
+      {
+        "species": "Sciurus carolinensis",
+        "common_name": "Eastern Gray Squirrel",
+        "status": "common"
+      },
+      {
+        "species": "Tamias striatus",
+        "common_name": "Eastern Chipmunk",
+        "status": "common"
+      },
+      {
+        "species": "Vulpes vulpes",
+        "common_name": "Red Fox",
+        "status": "uncommon"
+      },
+      {
+        "species": "Urocyon cinereoargenteus",
+        "common_name": "Gray Fox",
+        "status": "common"
+      },
+      {
+        "species": "Mephitis mephitis",
+        "common_name": "Striped Skunk",
+        "status": "common"
+      },
+      {
+        "species": "Sylvilagus floridanus",
+        "common_name": "Eastern Cottontail",
+        "status": "common"
+      },
+      {
+        "species": "Marmota monax",
+        "common_name": "Groundhog",
+        "status": "common"
+      },
+      {
+        "species": "Peromyscus leucopus",
+        "common_name": "White-footed Mouse",
+        "status": "abundant"
+      },
+      {
+        "species": "Blarina brevicauda",
+        "common_name": "Northern Short-tailed Shrew",
+        "status": "common"
+      }
+    ],
+    "birds": [
+      {
+        "species": "Meleagris gallopavo",
+        "common_name": "Wild Turkey",
+        "status": "rare",
+        "notes": "Declined with chestnut loss"
+      },
+      {
+        "species": "Bonasa umbellus",
+        "common_name": "Ruffed Grouse",
+        "status": "common"
+      },
+      {
+        "species": "Piranga olivacea",
+        "common_name": "Scarlet Tanager",
+        "status": "common",
+        "season": "summer"
+      },
+      {
+        "species": "Setophaga cerulea",
+        "common_name": "Cerulean Warbler",
+        "status": "present",
+        "notes": "More common in era"
+      },
+      {
+        "species": "Mniotilta varia",
+        "common_name": "Black-and-white Warbler",
+        "status": "common",
+        "season": "summer"
+      },
+      {
+        "species": "Seiurus aurocapilla",
+        "common_name": "Ovenbird",
+        "status": "common",
+        "season": "summer"
+      },
+      {
+        "species": "Hylocichla mustelina",
+        "common_name": "Wood Thrush",
+        "status": "common",
+        "season": "summer"
+      },
+      {
+        "species": "Sialia sialis",
+        "common_name": "Eastern Bluebird",
+        "status": "common"
+      },
+      {
+        "species": "Cyanocitta cristata",
+        "common_name": "Blue Jay",
+        "status": "common"
+      },
+      {
+        "species": "Corvus brachyrhynchos",
+        "common_name": "American Crow",
+        "status": "common"
+      },
+      {
+        "species": "Poecile carolinensis",
+        "common_name": "Carolina Chickadee",
+        "status": "common"
+      },
+      {
+        "species": "Sitta carolinensis",
+        "common_name": "White-breasted Nuthatch",
+        "status": "common"
+      },
+      {
+        "species": "Melanerpes erythrocephalus",
+        "common_name": "Red-headed Woodpecker",
+        "status": "uncommon"
+      },
+      {
+        "species": "Dryocopus pileatus",
+        "common_name": "Pileated Woodpecker",
+        "status": "uncommon"
+      },
+      {
+        "species": "Baeolophus bicolor",
+        "common_name": "Tufted Titmouse",
+        "status": "common"
+      },
+      {
+        "species": "Cardinalis cardinalis",
+        "common_name": "Northern Cardinal",
+        "status": "common"
+      },
+      {
+        "species": "Pipilo erythrophthalmus",
+        "common_name": "Eastern Towhee",
+        "status": "common"
+      },
+      {
+        "species": "Zenaida macroura",
+        "common_name": "Mourning Dove",
+        "status": "common"
+      }
+    ],
+    "amphibians": [
+      {
+        "species": "Plethodon jordani",
+        "common_name": "Jordan's Salamander",
+        "status": "common",
+        "notes": "Appalachian endemic"
+      },
+      {
+        "species": "Desmognathus quadramaculatus",
+        "common_name": "Black-bellied Salamander",
+        "status": "common"
+      },
+      {
+        "species": "Eurycea wilderae",
+        "common_name": "Blue Ridge Two-lined Salamander",
+        "status": "common"
+      },
+      {
+        "species": "Notophthalmus viridescens",
+        "common_name": "Eastern Newt",
+        "status": "common"
+      },
+      {
+        "species": "Pseudotriton ruber",
+        "common_name": "Red Salamander",
+        "status": "uncommon"
+      },
+      {
+        "species": "Rana clamitans",
+        "common_name": "Green Frog",
+        "status": "common"
+      },
+      {
+        "species": "Rana sylvatica",
+        "common_name": "Wood Frog",
+        "status": "common"
+      },
+      {
+        "species": "Hyla chrysoscelis",
+        "common_name": "Cope's Gray Treefrog",
+        "status": "common"
+      },
+      {
+        "species": "Anaxyrus americanus",
+        "common_name": "American Toad",
+        "status": "common"
+      }
+    ],
+    "fish": [
+      {
+        "species": "Salvelinus fontinalis",
+        "common_name": "Brook Trout",
+        "status": "common",
+        "notes": "Native, southern Appalachian population"
+      },
+      {
+        "species": "Oncorhynchus mykiss",
+        "common_name": "Rainbow Trout",
+        "status": "present",
+        "notes": "Stocked, non-native"
+      },
+      {
+        "species": "Salmo trutta",
+        "common_name": "Brown Trout",
+        "status": "present",
+        "notes": "Stocked, non-native"
+      },
+      {
+        "species": "Cottus carolinae",
+        "common_name": "Banded Sculpin",
+        "status": "common"
+      },
+      {
+        "species": "Semotilus atromaculatus",
+        "common_name": "Creek Chub",
+        "status": "common"
+      },
+      {
+        "species": "Rhinichthys atratulus",
+        "common_name": "Blacknose Dace",
+        "status": "common"
+      }
+    ]
+  },
+  "bmc_era_baseline": {
+    "period": "1933-1957",
+    "location": "Lake Eden / Black Mountain, NC",
+    "ecoregion": "Southern Blue Ridge Mountains",
+    "forest_type": "Mixed Mesophytic / Appalachian Oak Forest",
+    "climate_zone": "Humid subtropical highland (Cfb)",
+    "forest_composition_by_year": {
+      "1933": {
+        "american_chestnut_percent": 25,
+        "oaks_percent": 35.0,
+        "tulip_poplar_percent": 10.0,
+        "red_maple_percent": 8.0,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1934": {
+        "american_chestnut_percent": 25,
+        "oaks_percent": 35.0,
+        "tulip_poplar_percent": 10.0,
+        "red_maple_percent": 8.0,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1935": {
+        "american_chestnut_percent": 25,
+        "oaks_percent": 35.0,
+        "tulip_poplar_percent": 10.0,
+        "red_maple_percent": 8.0,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1936": {
+        "american_chestnut_percent": 10,
+        "oaks_percent": 42.5,
+        "tulip_poplar_percent": 14.5,
+        "red_maple_percent": 11.0,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1937": {
+        "american_chestnut_percent": 10,
+        "oaks_percent": 42.5,
+        "tulip_poplar_percent": 14.5,
+        "red_maple_percent": 11.0,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1938": {
+        "american_chestnut_percent": 10,
+        "oaks_percent": 42.5,
+        "tulip_poplar_percent": 14.5,
+        "red_maple_percent": 11.0,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1939": {
+        "american_chestnut_percent": 10,
+        "oaks_percent": 42.5,
+        "tulip_poplar_percent": 14.5,
+        "red_maple_percent": 11.0,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1940": {
+        "american_chestnut_percent": 10,
+        "oaks_percent": 42.5,
+        "tulip_poplar_percent": 14.5,
+        "red_maple_percent": 11.0,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1941": {
+        "american_chestnut_percent": 3,
+        "oaks_percent": 46.0,
+        "tulip_poplar_percent": 16.6,
+        "red_maple_percent": 12.4,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1942": {
+        "american_chestnut_percent": 3,
+        "oaks_percent": 46.0,
+        "tulip_poplar_percent": 16.6,
+        "red_maple_percent": 12.4,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1943": {
+        "american_chestnut_percent": 3,
+        "oaks_percent": 46.0,
+        "tulip_poplar_percent": 16.6,
+        "red_maple_percent": 12.4,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1944": {
+        "american_chestnut_percent": 3,
+        "oaks_percent": 46.0,
+        "tulip_poplar_percent": 16.6,
+        "red_maple_percent": 12.4,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1945": {
+        "american_chestnut_percent": 3,
+        "oaks_percent": 46.0,
+        "tulip_poplar_percent": 16.6,
+        "red_maple_percent": 12.4,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Active chestnut decline"
+      },
+      "1946": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1947": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1948": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1949": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1950": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1951": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1952": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1953": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1954": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1955": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1956": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      },
+      "1957": {
+        "american_chestnut_percent": 1,
+        "oaks_percent": 47.0,
+        "tulip_poplar_percent": 17.2,
+        "red_maple_percent": 12.8,
+        "hickories_percent": 8,
+        "hemlock_percent": 10,
+        "other_percent": 4,
+        "notes": "Post-chestnut forest stabilizing"
+      }
+    },
+    "seasonal_patterns": {
+      "spring": {
+        "months": [
+          3,
+          4,
+          5
+        ],
+        "events": [
+          "Canopy leaf-out begins mid-April",
+          "Spring ephemeral wildflowers peak late March-early April",
+          "Migratory songbirds arrive",
+          "Amphibian breeding begins",
+          "First butterflies emerge"
+        ]
+      },
+      "summer": {
+        "months": [
+          6,
+          7,
+          8
+        ],
+        "events": [
+          "Full canopy closure",
+          "Peak insect diversity",
+          "Breeding season for most birds",
+          "Summer wildflowers bloom",
+          "Lake Eden swimming season"
+        ]
+      },
+      "fall": {
+        "months": [
+          9,
+          10,
+          11
+        ],
+        "events": [
+          "Peak fall colors mid-October",
+          "Mast production (acorns, hickory nuts)",
+          "Bird migration southward",
+          "Late-season wildflowers (asters, goldenrods)",
+          "First frosts typically mid-October"
+        ]
+      },
+      "winter": {
+        "months": [
+          12,
+          1,
+          2
+        ],
+        "events": [
+          "Deciduous trees dormant",
+          "Overwintering wildlife active",
+          "Occasional snow (average 15-20 inches/year)",
+          "Winter residents (juncos, kinglets)",
+          "Earliest spring ephemerals by late February"
+        ]
+      }
+    }
+  }
+}

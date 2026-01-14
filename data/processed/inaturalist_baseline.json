@@ -1,0 +1,2520 @@
+{
+  "metadata": {
+    "source": "iNaturalist",
+    "api": "https://api.inaturalist.org/v1",
+    "place_id": 1267,
+    "location": "Buncombe County, North Carolina",
+    "purpose": "Baseline species list for ecological reconstruction",
+    "fetched": "2026-01-14T17:05:06.895161",
+    "notes": [
+      "Modern observations used to establish species presence",
+      "Historical presence inferred for native species",
+      "Seasonal patterns based on observation dates"
+    ]
+  },
+  "summary": {
+    "total_species": 2213,
+    "species_by_taxon": {
+      "Insecta": 819,
+      "Lepidoptera": 335,
+      "Plantae": 801,
+      "Odonata": 24,
+      "Coleoptera": 133,
+      "Hymenoptera": 101
+    }
+  },
+  "baseline_species": {
+    "butterflies": [
+      {
+        "scientific_name": "Papilio glaucus",
+        "common_name": "Eastern Tiger Swallowtail",
+        "observations": 24,
+        "inat_url": "https://www.inaturalist.org/taxa/60551"
+      },
+      {
+        "scientific_name": "Heraclides cresphontes",
+        "common_name": "Eastern Giant Swallowtail",
+        "observations": 8,
+        "inat_url": "https://www.inaturalist.org/taxa/85024"
+      },
+      {
+        "scientific_name": "Papilio troilus",
+        "common_name": "Spicebush Swallowtail",
+        "observations": 6,
+        "inat_url": "https://www.inaturalist.org/taxa/58525"
+      },
+      {
+        "scientific_name": "Battus philenor",
+        "common_name": "Pipevine Swallowtail",
+        "observations": 1,
+        "inat_url": "https://www.inaturalist.org/taxa/49972"
+      }
+    ],
+    "moths": [
+      {
+        "scientific_name": "Malacosoma americana",
+        "common_name": "Eastern Tent Caterpillar Moth",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Actias luna",
+        "common_name": "North American Luna Moth",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Hemileuca sandra",
+        "common_name": "Eastern Buck Moth",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Pyrrharctia isabella",
+        "common_name": "Isabella Tiger Moth",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Dryocampa rubicunda",
+        "common_name": "Rosy Maple Moth",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Eacles imperialis",
+        "common_name": "Imperial Moth",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Pyromorpha dimidiata",
+        "common_name": "Orange-patched Smoky Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Hypercompe scribonia",
+        "common_name": "Giant Leopard Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Atteva aurea",
+        "common_name": "Ailanthus Webworm Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Halysidota tessellaris",
+        "common_name": "Banded Tussock Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Hyphantria cunea",
+        "common_name": "Fall Webworm Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Callosamia angulifera",
+        "common_name": "Tulip-tree Silkmoth",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Antheraea polyphemus",
+        "common_name": "Polyphemus Moth",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Spilosoma virginica",
+        "common_name": "Virginian Tiger Moth",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Euchaetes egle",
+        "common_name": "Milkweed Tussock Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Hypena scabra",
+        "common_name": "Green Cloverworm Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Acharia stimulea",
+        "common_name": "Saddleback Caterpillar Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Eupithecia",
+        "common_name": "Pug Moths",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Acrolophus plumifrontella",
+        "common_name": "Eastern Grass Tubeworm Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Patalene olyzonaria",
+        "common_name": "Juniper Geometer Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Datana ministra",
+        "common_name": "Yellow-necked Caterpillar Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Citheronia regalis",
+        "common_name": "Regal Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Scopula limboundata",
+        "common_name": "Large Lace-border Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Estigmene acrea",
+        "common_name": "Salt Marsh Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Platynota idaeusalis",
+        "common_name": "Tufted Apple Bud Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Chionodes mediofuscella",
+        "common_name": "Black-smudged Chionodes Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Lambdina fervidaria",
+        "common_name": "Curved-lined Looper Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Apatelodes torrefacta",
+        "common_name": "Spotted Apatelodes Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Anisota peigleri",
+        "common_name": "Yellow-striped Oakworm Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Automeris io",
+        "common_name": "Io Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Mythimna unipuncta",
+        "common_name": "White-speck Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Orthonama obstipata",
+        "common_name": "Gem Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Udea rubigalis",
+        "common_name": "Celery Leaftier Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Scoparia biplagialis",
+        "common_name": "Double-striped Scoparia Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Lochmaeus manteo",
+        "common_name": "Variable Oakleaf Caterpillar Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Tetanolita mynesalis",
+        "common_name": "Smoky Tetanolita Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Eutrapela clemataria",
+        "common_name": "Curved-toothed Geometer Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Argyrotaenia velutinana",
+        "common_name": "Red-banded Leafroller Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Apoda biguttata",
+        "common_name": "Shagreened Slug Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Alsophila pometaria",
+        "common_name": "Fall Cankerworm Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Hypagyrtis esther",
+        "common_name": "Esther Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Megalopyge crispata",
+        "common_name": "Black-waved Flannel Moth",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Nomophila nearctica",
+        "common_name": "Lucerne Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Psyche casta",
+        "common_name": "Common Bagworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Hyalophora cecropia",
+        "common_name": "Cecropia Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Anisota stigma",
+        "common_name": "Spiny Oakworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Orgyia leucostigma",
+        "common_name": "White-marked Tussock Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Clemensia albata",
+        "common_name": "Little White Lichen Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Zale lunata",
+        "common_name": "Lunate Zale Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Melanolophia canadaria",
+        "common_name": "Canadian Melanolophia Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Acrolophus popeanella",
+        "common_name": "Clemens' Grass Tubeworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Xanthotype",
+        "common_name": "Crocus Geometer Moths",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Thyridopteryx ephemeraeformis",
+        "common_name": "Evergreen Bagworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Phosphila turbulenta",
+        "common_name": "Turbulent Phosphila Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Idia aemula",
+        "common_name": "Common Idia Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Palthis angulalis",
+        "common_name": "Dark-spotted Palthis Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Lomographa vestaliata",
+        "common_name": "White Spring Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Galgula partita",
+        "common_name": "Wedgling Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Prochoerodes lineola",
+        "common_name": "Large Maple Spanworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Choristoneura rosaceana",
+        "common_name": "Oblique-banded Leafroller Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Macaria bisignata",
+        "common_name": "Red-headed Inchworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Psilocorsis reflexella",
+        "common_name": "Dotted Leaftier Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Acrolophus arcanella",
+        "common_name": "Arcane Grass Tubeworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Anageshna primordialis",
+        "common_name": "Yellow-spotted Webworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Anicla infecta",
+        "common_name": "Green Cutworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Antaeotricha schlaegeri",
+        "common_name": "Schlaeger's Fruitworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Diathrausta harlequinalis",
+        "common_name": "Harlequin Webworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Idia diminuendis",
+        "common_name": "Orange-spotted Idia Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Moodna ostrinella",
+        "common_name": "Darker Moodna Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Panopoda rufimargo",
+        "common_name": "Red-lined Panopoda Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Pococera asperatella",
+        "common_name": "Maple Webworm Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Celypha cespitana",
+        "common_name": "Celypha Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Eugnosta sartana",
+        "common_name": "Broad-patched Eugnosta Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Eucosma parmatana",
+        "common_name": "Aster Eucosma Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Pelochrista derelicta",
+        "common_name": "Derelict Pelochrista Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Cochylichroa hoffmanana",
+        "common_name": "Hoffman's Cochylid Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Cecrita biundata",
+        "common_name": "Wavy-lined Heterocampa Moth",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Caenurgina crassiuscula",
+        "common_name": "Clover Looper Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Yponomeuta",
+        "common_name": "Small Ermine Moths",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Spilosoma congrua",
+        "common_name": "Agreeable Tiger Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Prodoxidae",
+        "common_name": "Yucca Moths and Allies",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Caenurgia chloropha",
+        "common_name": "Vetch Looper Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Callosamia promethea",
+        "common_name": "Promethea Silkmoth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Anisota virginiensis",
+        "common_name": "Pink-striped Oakworm Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Lacinipolia renigera",
+        "common_name": "Bristly Cutworm Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Malacosoma disstria",
+        "common_name": "Forest Tent Caterpillar Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Renia",
+        "common_name": "Renia Moths",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Olceclostera angelica",
+        "common_name": "Angel Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Paectes oculatrix",
+        "common_name": "Eyed Paectes Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Haploa lecontei",
+        "common_name": "Leconte's Haploa Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Megalopyge opercularis",
+        "common_name": "Southern Flannel Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Helicoverpa zea",
+        "common_name": "Corn Earworm Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Parallelia bistriaris",
+        "common_name": "Maple Looper Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Desmia funeralis",
+        "common_name": "Grape Leaffolder Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Spodoptera ornithogalli",
+        "common_name": "Yellow-striped Armyworm Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Cisseps fulvicollis",
+        "common_name": "Yellow-collared Scape Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Promalactis suzukiella",
+        "common_name": "Suzuki's Promalactis Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Plodia interpunctella",
+        "common_name": "Indian-Meal Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Haploa clymene",
+        "common_name": "Clymene Moth",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Prionoxystus robiniae",
+        "common_name": "Carpenterworm Moth",
+        "observations": 1
+      }
+    ],
+    "insects_other": [
+      {
+        "scientific_name": "Papilio glaucus",
+        "common_name": "Eastern Tiger Swallowtail",
+        "observations": 24
+      },
+      {
+        "scientific_name": "Limenitis arthemis",
+        "common_name": "Red-spotted Admiral",
+        "observations": 21
+      },
+      {
+        "scientific_name": "Halyomorpha halys",
+        "common_name": "Brown Marmorated Stink Bug",
+        "observations": 18
+      },
+      {
+        "scientific_name": "Xylocopa virginica",
+        "common_name": "Eastern Carpenter Bee",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Malacosoma americana",
+        "common_name": "Eastern Tent Caterpillar Moth",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Argynnis cybele",
+        "common_name": "Great Spangled Fritillary",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Actias luna",
+        "common_name": "North American Luna Moth",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Junonia coenia",
+        "common_name": "Common Buckeye",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Harmonia axyridis",
+        "common_name": "Asian Lady Beetle",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Danaus plexippus",
+        "common_name": "Monarch",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Odontotaenius disjunctus",
+        "common_name": "Horned Passalid",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Hemileuca sandra",
+        "common_name": "Eastern Buck Moth",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Oncopeltus fasciatus",
+        "common_name": "Large Milkweed Bug",
+        "observations": 13
+      },
+      {
+        "scientific_name": "Tenodera sinensis",
+        "common_name": "Chinese Mantis",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Pyrrharctia isabella",
+        "common_name": "Isabella Tiger Moth",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Apis mellifera",
+        "common_name": "Western Honey Bee",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Dryocampa rubicunda",
+        "common_name": "Rosy Maple Moth",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Tramea carolina",
+        "common_name": "Carolina Saddlebags",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Eacles imperialis",
+        "common_name": "Imperial Moth",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Camponotus castaneus",
+        "common_name": "Chestnut Carpenter Ant",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Pachypsylla venusta",
+        "common_name": "Hackberry Petiole Gall Psyllid",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Vanessa virginiensis",
+        "common_name": "American Lady",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Arilus cristatus",
+        "common_name": "North American Wheel Bug",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Trimerotropis saxatilis",
+        "common_name": "Lichen Grasshopper",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Eumorpha pandorus",
+        "common_name": "Pandorus Sphinx",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Vespa crabro",
+        "common_name": "European Hornet",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Pyromorpha dimidiata",
+        "common_name": "Orange-patched Smoky Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Hypercompe scribonia",
+        "common_name": "Giant Leopard Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Anax junius",
+        "common_name": "Common Green Darner",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Euptoieta claudia",
+        "common_name": "Variegated Fritillary",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Epimecis hortaria",
+        "common_name": "Tulip-tree Beauty",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Heraclides cresphontes",
+        "common_name": "Eastern Giant Swallowtail",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Atteva aurea",
+        "common_name": "Ailanthus Webworm Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Tetraopes tetrophthalmus",
+        "common_name": "Red Milkweed Beetle",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Halysidota tessellaris",
+        "common_name": "Banded Tussock Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Hyphantria cunea",
+        "common_name": "Fall Webworm Moth",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Acericecis ocellaris",
+        "common_name": "Ocellate Gall Midge",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Brachyponera chinensis",
+        "common_name": "Asian Needle Ant",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Hyles lineata",
+        "common_name": "White-lined Sphinx",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Callosamia angulifera",
+        "common_name": "Tulip-tree Silkmoth",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Alaus oculatus",
+        "common_name": "Eastern Eyed Click Beetle",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Cotinis nitida",
+        "common_name": "Common Green June Beetle",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Euthyrhynchus floridanus",
+        "common_name": "Florida Predatory Stink Bug",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Prosapia bicincta",
+        "common_name": "Two-lined Spittlebug",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Antheraea polyphemus",
+        "common_name": "Polyphemus Moth",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Phyciodes tharos",
+        "common_name": "Pearl Crescent",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Papilio troilus",
+        "common_name": "Spicebush Swallowtail",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Spilosoma virginica",
+        "common_name": "Virginian Tiger Moth",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Adelges tsugae",
+        "common_name": "Hemlock Woolly Adelgid",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Eurema nicippe",
+        "common_name": "Sleepy Orange",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Epargyreus clarus",
+        "common_name": "Silver-spotted Skipper",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Plathemis lydia",
+        "common_name": "Common Whitetail",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Stagmomantis carolina",
+        "common_name": "Carolina Mantis",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Callirhytis seminator",
+        "common_name": "Wool Sower Gall Wasp",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Phengodes",
+        "common_name": null,
+        "observations": 6
+      },
+      {
+        "scientific_name": "Disholcaspis quercusglobulus",
+        "common_name": "Round Bullet Gall Wasp",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Andricus quercuspetiolicola",
+        "common_name": "Oak Petiole Gall Wasp",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Cicindela sexguttata",
+        "common_name": "Six-spotted Tiger Beetle",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Dolichovespula maculata",
+        "common_name": "Bald-faced Hornet",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Euchaetes egle",
+        "common_name": "Milkweed Tussock Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Phyllophaga",
+        "common_name": "May Beetles",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Lucanus elaphus",
+        "common_name": "Elephant Stag Beetle",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Dasymutilla occidentalis",
+        "common_name": "Common Eastern Velvet Ant",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Darapsa myron",
+        "common_name": "Virginia Creeper Sphinx",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Hypena scabra",
+        "common_name": "Green Cloverworm Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Bombus impatiens",
+        "common_name": "Common Eastern Bumble Bee",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Musca domestica",
+        "common_name": "Common House Fly",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Acharia stimulea",
+        "common_name": "Saddleback Caterpillar Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Eupithecia",
+        "common_name": "Pug Moths",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Acmaeodera tubulus",
+        "common_name": null,
+        "observations": 5
+      },
+      {
+        "scientific_name": "Acrolophus plumifrontella",
+        "common_name": "Eastern Grass Tubeworm Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Camponotus americanus",
+        "common_name": "American Carpenter Ant",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Formica dolosa",
+        "common_name": "Wily Field Ant",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Patalene olyzonaria",
+        "common_name": "Juniper Geometer Moth",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Hemaris diffinis",
+        "common_name": "Snowberry Clearwing",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Chinavia hilaris",
+        "common_name": "Green Stink Bug",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Atalopedes huron",
+        "common_name": "Huron Skipper",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Datana ministra",
+        "common_name": "Yellow-necked Caterpillar Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Vanessa atalanta",
+        "common_name": "Red Admiral",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Bombylius",
+        "common_name": "Greater Bee Flies",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Limenitis archippus",
+        "common_name": "Viceroy",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Lucanus capreolus",
+        "common_name": "Reddish-brown Stag Beetle",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Solenopsis invicta",
+        "common_name": "Red Imported Fire Ant",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Citheronia regalis",
+        "common_name": "Regal Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Scopula limboundata",
+        "common_name": "Large Lace-border Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Scarites subterraneus",
+        "common_name": "Big-headed Ground Beetle",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Dynastes tityus",
+        "common_name": "Eastern Hercules Beetle",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Diapheromera femorata",
+        "common_name": "Northern Walkingstick",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Calopteryx maculata",
+        "common_name": "Ebony Jewelwing",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Sphex ichneumoneus",
+        "common_name": "Great Golden Digger Wasp",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Melaphis rhois",
+        "common_name": "Sumac Gall Aphid",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Reticulitermes flavipes",
+        "common_name": "Eastern Subterranean Termite",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Parcoblatta",
+        "common_name": "North American Wood Cockroaches",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Estigmene acrea",
+        "common_name": "Salt Marsh Moth",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Corydalus cornutus",
+        "common_name": "Eastern Dobsonfly",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Camponotus pennsylvanicus",
+        "common_name": "Eastern Black Carpenter Ant",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Amara aenea",
+        "common_name": "Common Sun Beetle",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Polistes exclamans",
+        "common_name": "Guinea Paper Wasp",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Hypagyrtis unipunctata",
+        "common_name": "One-spotted Variant",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Orthosoma brunneum",
+        "common_name": "Brown Prionid",
+        "observations": 4
+      }
+    ],
+    "dragonflies": [
+      {
+        "scientific_name": "Tramea carolina",
+        "common_name": "Carolina Saddlebags",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Anax junius",
+        "common_name": "Common Green Darner",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Plathemis lydia",
+        "common_name": "Common Whitetail",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Calopteryx maculata",
+        "common_name": "Ebony Jewelwing",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Libellula luctuosa",
+        "common_name": "Widow Skimmer",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Pachydiplax longipennis",
+        "common_name": "Blue Dasher",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Erythemis simplicicollis",
+        "common_name": "Eastern Pondhawk",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Ischnura hastata",
+        "common_name": "Citrine Forktail",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Lestes australis",
+        "common_name": "Southern Spreadwing",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Libellula incesta",
+        "common_name": "Slaty Skimmer",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Tramea lacerata",
+        "common_name": "Black Saddlebags",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Celithemis elisa",
+        "common_name": "Calico Pennant",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Libellula pulchella",
+        "common_name": "Twelve-spotted Skimmer",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Ladona deplanata",
+        "common_name": "Blue Corporal",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Ophiogomphus incurvatus",
+        "common_name": "Appalachian Snaketail",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Enallagma aspersum",
+        "common_name": "Azure Bluet",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Gomphaeschna antilope",
+        "common_name": "Taper-tailed Darner",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Ischnura posita",
+        "common_name": "Fragile Forktail",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Libellula flavida",
+        "common_name": "Yellow-sided Skimmer",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Pantala flavescens",
+        "common_name": "Wandering Glider",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Progomphus obscurus",
+        "common_name": "Common Sanddragon",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Sympetrum ambiguum",
+        "common_name": "Blue-faced Meadowhawk",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Tachopteryx thoreyi",
+        "common_name": "Gray Petaltail",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Phanogomphus lividus",
+        "common_name": "Ashy Clubtail",
+        "observations": 1
+      }
+    ],
+    "bees_wasps": [
+      {
+        "scientific_name": "Xylocopa virginica",
+        "common_name": "Eastern Carpenter Bee",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Apis mellifera",
+        "common_name": "Western Honey Bee",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Camponotus castaneus",
+        "common_name": "Chestnut Carpenter Ant",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Vespa crabro",
+        "common_name": "European Hornet",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Brachyponera chinensis",
+        "common_name": "Asian Needle Ant",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Callirhytis seminator",
+        "common_name": "Wool Sower Gall Wasp",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Disholcaspis quercusglobulus",
+        "common_name": "Round Bullet Gall Wasp",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Andricus quercuspetiolicola",
+        "common_name": "Oak Petiole Gall Wasp",
+        "observations": 6
+      },
+      {
+        "scientific_name": "Dolichovespula maculata",
+        "common_name": "Bald-faced Hornet",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Dasymutilla occidentalis",
+        "common_name": "Common Eastern Velvet Ant",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Bombus impatiens",
+        "common_name": "Common Eastern Bumble Bee",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Camponotus americanus",
+        "common_name": "American Carpenter Ant",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Formica dolosa",
+        "common_name": "Wily Field Ant",
+        "observations": 5
+      },
+      {
+        "scientific_name": "Solenopsis invicta",
+        "common_name": "Red Imported Fire Ant",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Sphex ichneumoneus",
+        "common_name": "Great Golden Digger Wasp",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Camponotus pennsylvanicus",
+        "common_name": "Eastern Black Carpenter Ant",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Polistes exclamans",
+        "common_name": "Guinea Paper Wasp",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Bicyrtes quadrifasciatus",
+        "common_name": "Four-banded Stink Bug Wasp",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Diastrophus nebulosus",
+        "common_name": "Blackberry Knot Gall Wasp",
+        "observations": 4
+      },
+      {
+        "scientific_name": "Ophion",
+        "common_name": null,
+        "observations": 3
+      },
+      {
+        "scientific_name": "Camponotus chromaiodes",
+        "common_name": "Ferruginous Carpenter Ant",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Trypoxylon politum",
+        "common_name": "Organ-pipe Mud-dauber Wasp",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Amphibolips confluenta",
+        "common_name": "Spongy Oak Apple Gall Wasp",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Vespula squamosa",
+        "common_name": "Southern Yellowjacket",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Scolia dubia",
+        "common_name": "Blue-winged Scoliid Wasp",
+        "observations": 3
+      },
+      {
+        "scientific_name": "Polistes fuscatus",
+        "common_name": "Northern Paper Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Polistes dorsalis",
+        "common_name": "Hunter's Little Paper Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Prenolepis imparis",
+        "common_name": "American Winter Ant",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Eremnophila aureonotata",
+        "common_name": "Gold-marked Thread-waisted Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Scolia bicincta",
+        "common_name": "Double-banded Scoliid Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Vespula maculifrons",
+        "common_name": "Eastern Yellowjacket",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Polistes metricus",
+        "common_name": "Metric Paper Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Philanthus gibbosus",
+        "common_name": "Hump-backed Beewolf",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Amphibolips quercusjuglans",
+        "common_name": "Acorn Plum Gall Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Isodontia auripes",
+        "common_name": "Brown-legged Grass-carrying Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Sphex habenus",
+        "common_name": "Golden-reined Digger Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Callirhytis quercusfutilis",
+        "common_name": "Oak Wart Gall Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Acraspis quercushirta",
+        "common_name": "Jewel Oak Gall Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Kokkocynips imbricariae",
+        "common_name": "Banded Bullet Gall Wasp",
+        "observations": 2
+      },
+      {
+        "scientific_name": "Bombus bimaculatus",
+        "common_name": "Two-spotted Bumble Bee",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Megachile sculpturalis",
+        "common_name": "Sculptured Resin Bee",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Andrena",
+        "common_name": "Mining Bees",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Osmia",
+        "common_name": "Mason Bees",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Pelecinus polyturator",
+        "common_name": "American Pelecinid Wasp",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Gnamptopelta obsidianator",
+        "common_name": null,
+        "observations": 1
+      },
+      {
+        "scientific_name": "Bombus griseocollis",
+        "common_name": "Brown-belted Bumble Bee",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Sceliphron",
+        "common_name": "Black-and-yellow Mud-dauber Wasps",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Monobia quadridens",
+        "common_name": "Four-toothed Mason Wasp",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Megarhyssa greenei",
+        "common_name": "Greene's Giant Ichneumonid Wasp",
+        "observations": 1
+      },
+      {
+        "scientific_name": "Polistes annularis",
+        "common_name": "Ringed Paper Wasp",
+        "observations": 1
+      }
+    ],
+    "plants": [
+      {
+        "scientific_name": "Allium keeverae",
+        "common_name": "Keever's Onion",
+        "observations": 80
+      },
+      {
+        "scientific_name": "Sedum smallii",
+        "common_name": "Elf Orpine",
+        "observations": 56
+      },
+      {
+        "scientific_name": "Micranthes petiolaris",
+        "common_name": "Cliff Saxifrage",
+        "observations": 55
+      },
+      {
+        "scientific_name": "Callicarpa americana",
+        "common_name": "American beautyberry",
+        "observations": 52
+      },
+      {
+        "scientific_name": "Opuntia mesacantha",
+        "common_name": "Southeastern Pricklypear",
+        "observations": 50
+      },
+      {
+        "scientific_name": "Yucca filamentosa",
+        "common_name": "common yucca",
+        "observations": 48
+      },
+      {
+        "scientific_name": "Phemeranthus teretifolius",
+        "common_name": "round-leaved fameflower",
+        "observations": 41
+      },
+      {
+        "scientific_name": "Pinus virginiana",
+        "common_name": "Virginia pine",
+        "observations": 38
+      },
+      {
+        "scientific_name": "Quercus montana",
+        "common_name": "chestnut oak",
+        "observations": 37
+      },
+      {
+        "scientific_name": "Myriopteris tomentosa",
+        "common_name": "Woolly Lipfern",
+        "observations": 37
+      },
+      {
+        "scientific_name": "Packera anonyma",
+        "common_name": "Small's ragwort",
+        "observations": 35
+      },
+      {
+        "scientific_name": "Helianthus porteri",
+        "common_name": "Porter's sunflower",
+        "observations": 35
+      },
+      {
+        "scientific_name": "Heuchera americana",
+        "common_name": "American alumroot",
+        "observations": 33
+      },
+      {
+        "scientific_name": "Hypericum radfordiorum",
+        "common_name": "Brushy Mountain St. John's-wort",
+        "observations": 32
+      },
+      {
+        "scientific_name": "Juniperus virginiana",
+        "common_name": "eastern redcedar",
+        "observations": 31
+      },
+      {
+        "scientific_name": "Chionanthus virginicus",
+        "common_name": "white fringetree",
+        "observations": 31
+      },
+      {
+        "scientific_name": "Lindernia monticola",
+        "common_name": "Flatrock Pimpernel",
+        "observations": 30
+      },
+      {
+        "scientific_name": "Houstonia caerulea",
+        "common_name": "azure bluet",
+        "observations": 29
+      },
+      {
+        "scientific_name": "Erythronium umbilicatum",
+        "common_name": "dimpled trout lily",
+        "observations": 29
+      },
+      {
+        "scientific_name": "Eupatorium capillifolium",
+        "common_name": "dogfennel",
+        "observations": 28
+      },
+      {
+        "scientific_name": "Selaginella rupestris",
+        "common_name": "rock spikemoss",
+        "observations": 28
+      },
+      {
+        "scientific_name": "Liriodendron tulipifera",
+        "common_name": "American tuliptree",
+        "observations": 27
+      },
+      {
+        "scientific_name": "Mononeuria glabra",
+        "common_name": "Appalachian sandwort",
+        "observations": 27
+      },
+      {
+        "scientific_name": "Ptelea trifoliata",
+        "common_name": "common hoptree",
+        "observations": 26
+      },
+      {
+        "scientific_name": "Commelina erecta",
+        "common_name": "whitemouth dayflower",
+        "observations": 26
+      },
+      {
+        "scientific_name": "Rhus aromatica",
+        "common_name": "fragrant sumac",
+        "observations": 25
+      },
+      {
+        "scientific_name": "Ilex opaca",
+        "common_name": "American holly",
+        "observations": 25
+      },
+      {
+        "scientific_name": "Clematis viorna",
+        "common_name": "Vase-vine Leatherflower",
+        "observations": 25
+      },
+      {
+        "scientific_name": "Diospyros virginiana",
+        "common_name": "American persimmon",
+        "observations": 25
+      },
+      {
+        "scientific_name": "Polygonatum biflorum",
+        "common_name": "smooth Solomon's seal",
+        "observations": 24
+      },
+      {
+        "scientific_name": "Symphoricarpos orbiculatus",
+        "common_name": "coralberry",
+        "observations": 24
+      },
+      {
+        "scientific_name": "Matelea carolinensis",
+        "common_name": "Carolina climbing-milkweed",
+        "observations": 24
+      },
+      {
+        "scientific_name": "Linaria canadensis",
+        "common_name": "Canada toadflax",
+        "observations": 24
+      },
+      {
+        "scientific_name": "Tipularia discolor",
+        "common_name": "crane-fly orchid",
+        "observations": 23
+      },
+      {
+        "scientific_name": "Asplenium platyneuron",
+        "common_name": "ebony spleenwort",
+        "observations": 22
+      },
+      {
+        "scientific_name": "Ruellia caroliniensis",
+        "common_name": "Carolina ruellia",
+        "observations": 22
+      },
+      {
+        "scientific_name": "Opuntia humifusa",
+        "common_name": "low pricklypear",
+        "observations": 21
+      },
+      {
+        "scientific_name": "Acer rubrum",
+        "common_name": "red maple",
+        "observations": 21
+      },
+      {
+        "scientific_name": "Viburnum acerifolium",
+        "common_name": "mapleleaf viburnum",
+        "observations": 21
+      },
+      {
+        "scientific_name": "Lonicera japonica",
+        "common_name": "Japanese honeysuckle",
+        "observations": 21
+      },
+      {
+        "scientific_name": "Cunila origanoides",
+        "common_name": "common dittany",
+        "observations": 21
+      },
+      {
+        "scientific_name": "Phlox nivalis",
+        "common_name": "trailing phlox",
+        "observations": 21
+      },
+      {
+        "scientific_name": "Castanea dentata",
+        "common_name": "American chestnut",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Fagus grandifolia",
+        "common_name": "American beech",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Kalmia latifolia",
+        "common_name": "mountain laurel",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Rhododendron periclymenoides",
+        "common_name": "Pinxter Flower",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Prunus serotina",
+        "common_name": "black cherry",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Houstonia longifolia",
+        "common_name": "long-leaved bluets",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Chimaphila maculata",
+        "common_name": "striped wintergreen",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Lonicera sempervirens",
+        "common_name": "coral honeysuckle",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Hypericum gentianoides",
+        "common_name": "pineweed",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Krigia virginica",
+        "common_name": "Virginia dwarfdandelion",
+        "observations": 20
+      },
+      {
+        "scientific_name": "Asclepias tuberosa",
+        "common_name": "butterfly milkweed",
+        "observations": 19
+      },
+      {
+        "scientific_name": "Vitis rotundifolia",
+        "common_name": "muscadine",
+        "observations": 19
+      },
+      {
+        "scientific_name": "Myriopteris lanosa",
+        "common_name": "Hairy Lip Fern",
+        "observations": 19
+      },
+      {
+        "scientific_name": "Phytolacca americana",
+        "common_name": "American pokeweed",
+        "observations": 18
+      },
+      {
+        "scientific_name": "Sassafras albidum",
+        "common_name": "sassafras",
+        "observations": 18
+      },
+      {
+        "scientific_name": "Euonymus americanus",
+        "common_name": "strawberry bush",
+        "observations": 18
+      },
+      {
+        "scientific_name": "Croton michauxii",
+        "common_name": "Michaux's croton",
+        "observations": 18
+      },
+      {
+        "scientific_name": "Viola hirsutula",
+        "common_name": "Southern wood violet",
+        "observations": 18
+      },
+      {
+        "scientific_name": "Quercus rubra",
+        "common_name": "northern red oak",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Quercus velutina",
+        "common_name": "black oak",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Passiflora incarnata",
+        "common_name": "purple passionflower",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Rhus glabra",
+        "common_name": "smooth sumac",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Hieracium venosum",
+        "common_name": "rattlesnakeweed",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Rhus copallinum",
+        "common_name": "shining sumac",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Ligustrum sinense",
+        "common_name": "Chinese privet",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Verbesina occidentalis",
+        "common_name": "Yellow Crownbeard",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Halesia tetraptera",
+        "common_name": "mountain silverbell",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Asarum minus",
+        "common_name": "little heartleaf",
+        "observations": 17
+      },
+      {
+        "scientific_name": "Lewinskya keeverae",
+        "common_name": null,
+        "observations": 17
+      },
+      {
+        "scientific_name": "Parthenocissus quinquefolia",
+        "common_name": "Virginia creeper",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Maianthemum racemosum",
+        "common_name": "Solomon's plume",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Cornus florida",
+        "common_name": "flowering dogwood",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Robinia pseudoacacia",
+        "common_name": "black locust",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Prunus persica",
+        "common_name": "Peach",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Smilax bona-nox",
+        "common_name": "saw greenbrier",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Oxydendrum arboreum",
+        "common_name": "sourwood",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Pellaea wrightiana",
+        "common_name": "Wright's cliffbrake",
+        "observations": 16
+      },
+      {
+        "scientific_name": "Narcissus",
+        "common_name": "daffodils",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Morus rubra",
+        "common_name": "red mulberry",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Veronica persica",
+        "common_name": "bird's-eye speedwell",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Pinus taeda",
+        "common_name": "loblolly pine",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Triodanis perfoliata",
+        "common_name": "clasping Venus's looking glass",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Mitchella repens",
+        "common_name": "partridgeberry",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Pyrus calleryana",
+        "common_name": "Callery pear",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Magnolia fraseri",
+        "common_name": "Fraser Magnolia",
+        "observations": 15
+      },
+      {
+        "scientific_name": "Sanguinaria canadensis",
+        "common_name": "bloodroot",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Passiflora lutea",
+        "common_name": "yellow passionflower",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Hamamelis virginiana",
+        "common_name": "american witch-hazel",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Polystichum acrostichoides",
+        "common_name": "Christmas fern",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Juglans nigra",
+        "common_name": "eastern black walnut",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Quercus alba",
+        "common_name": "white oak",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Carya glabra",
+        "common_name": "pignut hickory",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Nyssa sylvatica",
+        "common_name": "Black Tupelo",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Euphorbia cyparissias",
+        "common_name": "cypress spurge",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Paulownia tomentosa",
+        "common_name": "princess tree",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Grimmia laevigata",
+        "common_name": "Grimmia Dry Rock Moss",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Eupatorium sessilifolium",
+        "common_name": "upland boneset",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Lespedeza cuneata",
+        "common_name": "Chinese bushclover",
+        "observations": 14
+      },
+      {
+        "scientific_name": "Ailanthus altissima",
+        "common_name": "tree-of-heaven",
+        "observations": 13
+      },
+      {
+        "scientific_name": "Potentilla recta",
+        "common_name": "sulphur cinquefoil",
+        "observations": 13
+      },
+      {
+        "scientific_name": "Salvia lyrata",
+        "common_name": "lyreleaf sage",
+        "observations": 13
+      },
+      {
+        "scientific_name": "Oxalis violacea",
+        "common_name": "violet woodsorrel",
+        "observations": 13
+      },
+      {
+        "scientific_name": "Sericocarpus linifolius",
+        "common_name": "Narrowleaf Whitetop Aster",
+        "observations": 13
+      },
+      {
+        "scientific_name": "Pleopeltis michauxiana",
+        "common_name": "resurrection fern",
+        "observations": 13
+      },
+      {
+        "scientific_name": "Melia azedarach",
+        "common_name": "Chinaberry",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Fraxinus pennsylvanica",
+        "common_name": "green ash",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Toxicodendron radicans",
+        "common_name": "eastern poison ivy",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Verbascum thapsus",
+        "common_name": "great mullein",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Quercus marilandica",
+        "common_name": "blackjack oak",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Diphasiastrum digitatum",
+        "common_name": "fan clubmoss",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Rosa carolina",
+        "common_name": "Carolina rose",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Coreopsis pubescens",
+        "common_name": "Star Tickseed",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Asarum virginicum",
+        "common_name": "Virginia heartleaf",
+        "observations": 12
+      },
+      {
+        "scientific_name": "Lamium amplexicaule",
+        "common_name": "henbit deadnettle",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Vaccinium stamineum",
+        "common_name": "deerberry",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Plantago virginica",
+        "common_name": "dwarf plantain",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Viburnum dentatum",
+        "common_name": "southern arrowwood",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Hylotelephium telephioides",
+        "common_name": "Allegheny stonecrop",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Ipomoea pandurata",
+        "common_name": "wild potato vine",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Quercus phellos",
+        "common_name": "willow oak",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Phacelia dubia",
+        "common_name": "Appalachian phacelia",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Hypericum stragulum",
+        "common_name": "low St. John's wort",
+        "observations": 11
+      },
+      {
+        "scientific_name": "Trifolium repens",
+        "common_name": "white clover",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Smilax rotundifolia",
+        "common_name": "roundleaf greenbrier",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Oenothera biennis",
+        "common_name": "common evening-primrose",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Oxalis dillenii",
+        "common_name": "slender yellow woodsorrel",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Quercus stellata",
+        "common_name": "post oak",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Rubus occidentalis",
+        "common_name": "black raspberry",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Lespedeza procumbens",
+        "common_name": "trailing lespedeza",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Viburnum prunifolium",
+        "common_name": "Blackhaw",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Danthonia spicata",
+        "common_name": "Poverty oatgrass",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Piptochaetium avenaceum",
+        "common_name": "Blackseed Needlegrass",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Asarum naniflorum",
+        "common_name": "Dwarf-flower Heartleaf",
+        "observations": 10
+      },
+      {
+        "scientific_name": "Asclepias syriaca",
+        "common_name": "common milkweed",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Pinus strobus",
+        "common_name": "eastern white pine",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Hypochaeris radicata",
+        "common_name": "Common Cat's-ear",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Corylus americana",
+        "common_name": "American hazelnut",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Celtis occidentalis",
+        "common_name": "common hackberry",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Lamium purpureum",
+        "common_name": "red deadnettle",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Trifolium campestre",
+        "common_name": "hop trefoil",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Allium vineale",
+        "common_name": "wild garlic",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Carduus nutans",
+        "common_name": "musk thistle",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Rubus pensilvanicus",
+        "common_name": "Pennsylvania Blackberry",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Iris cristata",
+        "common_name": "dwarf crested iris",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Viola sororia",
+        "common_name": "common blue violet",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Ipomoea coccinea",
+        "common_name": "red morning glory",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Coreopsis major",
+        "common_name": "Greater Tickseed",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Persicaria longiseta",
+        "common_name": "low smartweed",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Galium pilosum",
+        "common_name": "Hairy bedstraw",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Euphorbia pubentissima",
+        "common_name": "False Flowering Spurge",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Lycopus virginicus",
+        "common_name": "sweet bugleweed",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Viola palmata",
+        "common_name": "three-lobed violet",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Hexasepalum teres",
+        "common_name": "rough buttonweed",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Centaurea cyanus",
+        "common_name": "Cornflower",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Senega curtissii",
+        "common_name": "button-rosy",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Anatherum virginicum",
+        "common_name": "broomsedge bluestem",
+        "observations": 9
+      },
+      {
+        "scientific_name": "Acer negundo",
+        "common_name": "box elder",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Tsuga canadensis",
+        "common_name": "eastern hemlock",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Solanum carolinense",
+        "common_name": "Carolina horsenettle",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Commelina communis",
+        "common_name": "Asiatic dayflower",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Quercus nigra",
+        "common_name": "water oak",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Geranium carolinianum",
+        "common_name": "Carolina crane's-bill",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Solidago altissima",
+        "common_name": "tall goldenrod",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Potentilla canadensis",
+        "common_name": "dwarf cinquefoil",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Carya tomentosa",
+        "common_name": "mockernut",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Packera aurea",
+        "common_name": "golden ragwort",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Penstemon canescens",
+        "common_name": "eastern gray beardtongue",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Actaea racemosa",
+        "common_name": "black cohosh",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Houstonia pusilla",
+        "common_name": "tiny bluet",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Dioscorea villosa",
+        "common_name": "wild yam",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Hydrangea arborescens",
+        "common_name": "wild hydrangea",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Ludwigia alternifolia",
+        "common_name": "Seedbox",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Danthonia sericea",
+        "common_name": "silky oat-grass",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Thuidium delicatulum",
+        "common_name": "delicate fern moss",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Viola sagittata",
+        "common_name": "Arrowleaf Violet",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Gonolobus suberosus",
+        "common_name": "Anglepod",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Potentilla indica",
+        "common_name": "mock strawberry",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Oophila amblystomatis",
+        "common_name": "Salamander Algae",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Viola rafinesquei",
+        "common_name": "American field pansy",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Asarum heterophyllum",
+        "common_name": "variable-leaf heartleaf",
+        "observations": 8
+      },
+      {
+        "scientific_name": "Taraxacum officinale",
+        "common_name": "common dandelion",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Trifolium pratense",
+        "common_name": "Red Clover",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Pteridium aquilinum",
+        "common_name": "common bracken",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Oxalis corniculata",
+        "common_name": "Creeping Woodsorrel",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Plantago lanceolata",
+        "common_name": "ribwort plantain",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Rumex acetosella",
+        "common_name": "Sheep's sorrel",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Ambrosia artemisiifolia",
+        "common_name": "common ragweed",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Tiarella cordifolia",
+        "common_name": "Heartleaf Foamflower",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Vitis labrusca",
+        "common_name": "fox grape",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Polytrichum commune",
+        "common_name": "Common Haircap Moss",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Trentepohlia aurea",
+        "common_name": "Orange Rock Hair",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Rubus flagellaris",
+        "common_name": "Common Dewberry",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Erigeron strigosus",
+        "common_name": "daisy fleabane",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Helenium amarum",
+        "common_name": "Bitterweed",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Lepidium virginicum",
+        "common_name": "Virginia pepperweed",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Smilax glauca",
+        "common_name": "sawbrier",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Galium circaezans",
+        "common_name": "licorice bedstraw",
+        "observations": 7
+      },
+      {
+        "scientific_name": "Huperzia lucidula",
+        "common_name": "shining firmoss",
+        "observations": 7
+      }
+    ]
+  },
+  "seasonal_patterns": {
+    "Insecta": {
+      "1": 6,
+      "2": 8,
+      "3": 263,
+      "4": 360,
+      "5": 242,
+      "6": 180,
+      "7": 290,
+      "8": 523,
+      "9": 172,
+      "10": 99,
+      "11": 16,
+      "12": 66
+    },
+    "Lepidoptera": {
+      "1": 2,
+      "2": 0,
+      "3": 61,
+      "4": 97,
+      "5": 79,
+      "6": 64,
+      "7": 144,
+      "8": 345,
+      "9": 106,
+      "10": 32,
+      "11": 7,
+      "12": 10
+    },
+    "Plantae": {
+      "1": 104,
+      "2": 97,
+      "3": 802,
+      "4": 1603,
+      "5": 1306,
+      "6": 454,
+      "7": 294,
+      "8": 234,
+      "9": 302,
+      "10": 241,
+      "11": 97,
+      "12": 206
+    },
+    "Odonata": {
+      "1": 0,
+      "2": 0,
+      "3": 7,
+      "4": 20,
+      "5": 11,
+      "6": 5,
+      "7": 16,
+      "8": 10,
+      "9": 4,
+      "10": 2,
+      "11": 0,
+      "12": 0
+    },
+    "Coleoptera": {
+      "1": 1,
+      "2": 2,
+      "3": 60,
+      "4": 64,
+      "5": 43,
+      "6": 39,
+      "7": 54,
+      "8": 27,
+      "9": 7,
+      "10": 9,
+      "11": 2,
+      "12": 13
+    },
+    "Hymenoptera": {
+      "1": 1,
+      "2": 3,
+      "3": 51,
+      "4": 73,
+      "5": 34,
+      "6": 15,
+      "7": 18,
+      "8": 57,
+      "9": 16,
+      "10": 10,
+      "11": 3,
+      "12": 11
+    }
+  }
+}
